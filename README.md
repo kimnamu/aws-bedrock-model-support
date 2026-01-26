@@ -1,8 +1,8 @@
 # AWS Bedrock Model Availability Tracker
 
-Track AWS Bedrock model availability across regions.
+AWS Bedrock 모델의 리전별 가용성을 추적합니다.
 
-## Model Availability
+## 모델 가용성 현황
 
 <!-- BEDROCK_AVAILABILITY_START -->
 
@@ -10,7 +10,7 @@ Track AWS Bedrock model availability across regions.
  ![Regions](https://img.shields.io/badge/Regions-14-green)
  ![Providers](https://img.shields.io/badge/Providers-17-orange)
 
-> **Last updated:** 2026-01-26 13:48 UTC / 05:48 PST / 2026-01-26 22:48 KST
+> **Last updated:** 2026-01-26 14:20:59 UTC
 
 ## Table of Contents
 
