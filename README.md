@@ -32,287 +32,295 @@ AWS Bedrock 모델의 리전별 가용성을 추적합니다.
 
 ### Table of Contents
 
-- [AI21 Labs](#ai21-labs) (2 models in 1 regions)
-- [Amazon](#amazon) (137 models in 14 regions)
-- [Anthropic](#anthropic) (175 models in 14 regions)
-- [Cohere](#cohere) (59 models in 14 regions)
-- [DeepSeek](#deepseek) (8 models in 6 regions)
-- [Google](#google) (24 models in 8 regions)
-- [Luma AI](#luma-ai) (1 models in 1 regions)
-- [Meta](#meta) (54 models in 9 regions)
-- [MiniMax](#minimax) (8 models in 8 regions)
-- [Mistral AI](#mistral-ai) (85 models in 12 regions)
-- [Moonshot AI](#moonshot-ai) (6 models in 6 regions)
-- [NVIDIA](#nvidia) (23 models in 8 regions)
-- [OpenAI](#openai) (34 models in 9 regions)
-- [Qwen](#qwen) (45 models in 9 regions)
-- [Stability AI](#stability-ai) (42 models in 3 regions)
-- [TwelveLabs](#twelvelabs) (20 models in 14 regions)
-- [Writer](#writer) (6 models in 3 regions)
+- [AI21 Labs](#ai21-labs) (2 models, 1 regions)
+- [Amazon](#amazon) (32 models, 14 regions)
+- [Anthropic](#anthropic) (31 models, 14 regions)
+- [Cohere](#cohere) (8 models, 14 regions)
+- [DeepSeek](#deepseek) (2 models, 6 regions)
+- [Google](#google) (3 models, 8 regions)
+- [Luma AI](#luma-ai) (1 models, 1 regions)
+- [Meta](#meta) (19 models, 9 regions)
+- [MiniMax](#minimax) (1 models, 8 regions)
+- [Mistral AI](#mistral-ai) (13 models, 12 regions)
+- [Moonshot AI](#moonshot-ai) (1 models, 6 regions)
+- [NVIDIA](#nvidia) (3 models, 8 regions)
+- [OpenAI](#openai) (4 models, 9 regions)
+- [Qwen](#qwen) (6 models, 9 regions)
+- [Stability AI](#stability-ai) (16 models, 3 regions)
+- [TwelveLabs](#twelvelabs) (3 models, 14 regions)
+- [Writer](#writer) (2 models, 3 regions)
 
 ---
 
 ### <a id="ai21-labs"></a>AI21 Labs
 
-**2 models** available in **1 regions**
+**2 models** across **1 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 2 |
+| Model | us-east-1 |
+|-------|:---:|
+| `ai21.jamba-1-5-large-v1:0` | ✅ |
+| `ai21.jamba-1-5-mini-v1:0` | ✅ |
 
 ### <a id="amazon"></a>Amazon
 
-**137 models** available in **14 regions**
+**32 models** across **14 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 31 |
-| us-east-2 | US East (Ohio) | 10 |
-| us-west-2 | US West (Oregon) | 19 |
-| ca-central-1 | Canada (Central) | 6 |
-| eu-central-1 | Europe (Frankfurt) | 10 |
-| eu-west-1 | Europe (Ireland) | 9 |
-| eu-west-2 | Europe (London) | 7 |
-| eu-west-3 | Europe (Paris) | 7 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 12 |
-| ap-northeast-2 | Asia Pacific (Seoul) | 5 |
-| ap-southeast-1 | Asia Pacific (Singapore) | 4 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 7 |
-| ap-south-1 | Asia Pacific (Mumbai) | 7 |
-| sa-east-1 | South America (São Paulo) | 3 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `amazon.nova-2-lite-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `amazon.nova-2-lite-v1:0:256k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-2-multimodal-embeddings-v1:0` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-2-sonic-v1:0` | ✅ | - | ✅ | - | - | - | - | - | ✅ | - | - | - | - | - |
+| `amazon.nova-canvas-v1:0` | ✅ | - | - | - | - | ✅ | - | - | ✅ | - | - | - | - | - |
+| `amazon.nova-lite-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `amazon.nova-lite-v1:0:24k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-lite-v1:0:300k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-micro-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `amazon.nova-micro-v1:0:128k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-micro-v1:0:24k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-premier-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-premier-v1:0:1000k` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-premier-v1:0:20k` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-premier-v1:0:8k` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-premier-v1:0:mm` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-pro-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `amazon.nova-pro-v1:0:24k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-pro-v1:0:300k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-reel-v1:0` | ✅ | - | - | - | - | ✅ | - | - | ✅ | - | - | - | - | - |
+| `amazon.nova-reel-v1:1` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.nova-sonic-v1:0` | ✅ | - | - | - | - | - | - | - | ✅ | - | - | - | - | - |
+| `amazon.rerank-v1:0` | - | - | ✅ | ✅ | ✅ | - | - | - | ✅ | - | - | - | - | - |
+| `amazon.titan-embed-g1-text-02` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.titan-embed-image-v1` | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - | - | - | ✅ | ✅ | ✅ |
+| `amazon.titan-embed-image-v1:0` | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - | - | - | ✅ | ✅ | ✅ |
+| `amazon.titan-embed-text-v1` | ✅ | - | ✅ | - | ✅ | - | - | - | ✅ | - | - | - | - | - |
+| `amazon.titan-embed-text-v1:2:8k` | ✅ | - | ✅ | - | ✅ | - | - | - | ✅ | - | - | - | - | - |
+| `amazon.titan-embed-text-v2:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ |
+| `amazon.titan-embed-text-v2:0:8k` | ✅ | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.titan-image-generator-v2:0` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `amazon.titan-tg1-large` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
 
 ### <a id="anthropic"></a>Anthropic
 
-**175 models** available in **14 regions**
+**31 models** across **14 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 25 |
-| us-east-2 | US East (Ohio) | 12 |
-| us-west-2 | US West (Oregon) | 31 |
-| ca-central-1 | Canada (Central) | 5 |
-| eu-central-1 | Europe (Frankfurt) | 10 |
-| eu-west-1 | Europe (Ireland) | 11 |
-| eu-west-2 | Europe (London) | 6 |
-| eu-west-3 | Europe (Paris) | 12 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 11 |
-| ap-northeast-2 | Asia Pacific (Seoul) | 12 |
-| ap-southeast-1 | Asia Pacific (Singapore) | 11 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 13 |
-| ap-south-1 | Asia Pacific (Mumbai) | 11 |
-| sa-east-1 | South America (São Paulo) | 5 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `anthropic.claude-3-5-haiku-20241022-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20240620-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `anthropic.claude-3-5-sonnet-20240620-v1:0:18k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20240620-v1:0:200k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20240620-v1:0:51k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20241022-v2:0` | ✅ | ✅ | ✅ | - | - | - | - | - | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `anthropic.claude-3-5-sonnet-20241022-v2:0:18k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20241022-v2:0:200k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-5-sonnet-20241022-v2:0:51k` | - | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-7-sonnet-20250219-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `anthropic.claude-3-haiku-20240307-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `anthropic.claude-3-haiku-20240307-v1:0:200k` | ✅ | ✅ | ✅ | - | - | - | - | ✅ | - | ✅ | - | ✅ | - | - |
+| `anthropic.claude-3-haiku-20240307-v1:0:48k` | ✅ | - | ✅ | - | - | ✅ | - | ✅ | - | - | - | ✅ | ✅ | - |
+| `anthropic.claude-3-opus-20240229-v1:0` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-opus-20240229-v1:0:12k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-opus-20240229-v1:0:200k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-opus-20240229-v1:0:28k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-3-sonnet-20240229-v1:0` | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `anthropic.claude-3-sonnet-20240229-v1:0:200k` | ✅ | - | ✅ | - | - | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | - | - |
+| `anthropic.claude-3-sonnet-20240229-v1:0:28k` | ✅ | - | ✅ | - | - | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `anthropic.claude-haiku-4-5-20251001-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `anthropic.claude-instant-v1:2:100k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-opus-4-1-20250805-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-opus-4-20250514-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-opus-4-5-20251101-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `anthropic.claude-sonnet-4-20250514-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| `anthropic.claude-sonnet-4-5-20250929-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `anthropic.claude-v2:0:100k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-v2:0:18k` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-v2:1:18k` | ✅ | - | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - |
+| `anthropic.claude-v2:1:200k` | ✅ | - | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - |
 
 ### <a id="cohere"></a>Cohere
 
-**59 models** available in **14 regions**
+**8 models** across **14 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 8 |
-| us-east-2 | US East (Ohio) | 1 |
-| us-west-2 | US West (Oregon) | 8 |
-| ca-central-1 | Canada (Central) | 6 |
-| eu-central-1 | Europe (Frankfurt) | 4 |
-| eu-west-1 | Europe (Ireland) | 3 |
-| eu-west-2 | Europe (London) | 5 |
-| eu-west-3 | Europe (Paris) | 5 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 4 |
-| ap-northeast-2 | Asia Pacific (Seoul) | 1 |
-| ap-southeast-1 | Asia Pacific (Singapore) | 3 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 3 |
-| ap-south-1 | Asia Pacific (Mumbai) | 3 |
-| sa-east-1 | South America (São Paulo) | 5 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `cohere.command-r-plus-v1:0` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `cohere.command-r-v1:0` | ✅ | - | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `cohere.embed-english-v3` | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ |
+| `cohere.embed-english-v3:0:512` | ✅ | - | ✅ | ✅ | - | - | ✅ | ✅ | - | - | - | - | - | ✅ |
+| `cohere.embed-multilingual-v3` | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ |
+| `cohere.embed-multilingual-v3:0:512` | ✅ | - | ✅ | ✅ | - | - | ✅ | ✅ | - | - | - | - | - | ✅ |
+| `cohere.embed-v4:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `cohere.rerank-v3-5:0` | ✅ | - | ✅ | ✅ | ✅ | - | - | - | ✅ | - | - | - | - | - |
 
 ### <a id="deepseek"></a>DeepSeek
 
-**8 models** available in **6 regions**
+**2 models** across **6 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 1 |
-| us-east-2 | US East (Ohio) | 2 |
-| us-west-2 | US West (Oregon) | 2 |
-| eu-west-2 | Europe (London) | 1 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 1 |
-| ap-south-1 | Asia Pacific (Mumbai) | 1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|
+| `deepseek.r1-v1:0` | ✅ | ✅ | ✅ | - | - | - |
+| `deepseek.v3-v1:0` | - | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="google"></a>Google
 
-**24 models** available in **8 regions**
+**3 models** across **8 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 3 |
-| us-east-2 | US East (Ohio) | 3 |
-| us-west-2 | US West (Oregon) | 3 |
-| eu-west-1 | Europe (Ireland) | 3 |
-| eu-west-2 | Europe (London) | 3 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 3 |
-| ap-south-1 | Asia Pacific (Mumbai) | 3 |
-| sa-east-1 | South America (São Paulo) | 3 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `google.gemma-3-12b-it` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `google.gemma-3-27b-it` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `google.gemma-3-4b-it` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="luma-ai"></a>Luma AI
 
-**1 models** available in **1 regions**
+**1 models** across **1 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-west-2 | US West (Oregon) | 1 |
+| Model | us-west-2 |
+|-------|:---:|
+| `luma.ray-v2:0` | ✅ |
 
 ### <a id="meta"></a>Meta
 
-**54 models** available in **9 regions**
+**19 models** across **9 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 11 |
-| us-east-2 | US East (Ohio) | 12 |
-| us-west-2 | US West (Oregon) | 19 |
-| ca-central-1 | Canada (Central) | 2 |
-| eu-central-1 | Europe (Frankfurt) | 2 |
-| eu-west-1 | Europe (Ireland) | 2 |
-| eu-west-2 | Europe (London) | 2 |
-| eu-west-3 | Europe (Paris) | 2 |
-| ap-south-1 | Asia Pacific (Mumbai) | 2 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-south-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `meta.llama3-1-405b-instruct-v1:0` | - | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-1-70b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-1-70b-instruct-v1:0:128k` | - | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-1-8b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-1-8b-instruct-v1:0:128k` | - | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-11b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-11b-instruct-v1:0:128k` | - | - | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-1b-instruct-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | - | ✅ | - |
+| `meta.llama3-2-1b-instruct-v1:0:128k` | - | - | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-3b-instruct-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | - | ✅ | - |
+| `meta.llama3-2-3b-instruct-v1:0:128k` | - | - | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-90b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-2-90b-instruct-v1:0:128k` | - | - | ✅ | - | - | - | - | - | - |
+| `meta.llama3-3-70b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama3-3-70b-instruct-v1:0:128k` | - | - | ✅ | - | - | - | - | - | - |
+| `meta.llama3-70b-instruct-v1:0` | ✅ | - | ✅ | ✅ | - | - | ✅ | - | ✅ |
+| `meta.llama3-8b-instruct-v1:0` | ✅ | - | ✅ | ✅ | - | - | ✅ | - | ✅ |
+| `meta.llama4-maverick-17b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
+| `meta.llama4-scout-17b-instruct-v1:0` | ✅ | ✅ | ✅ | - | - | - | - | - | - |
 
 ### <a id="minimax"></a>MiniMax
 
-**8 models** available in **8 regions**
+**1 models** across **8 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 1 |
-| us-east-2 | US East (Ohio) | 1 |
-| us-west-2 | US West (Oregon) | 1 |
-| eu-west-1 | Europe (Ireland) | 1 |
-| eu-west-2 | Europe (London) | 1 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 1 |
-| ap-south-1 | Asia Pacific (Mumbai) | 1 |
-| sa-east-1 | South America (São Paulo) | 1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `minimax.minimax-m2` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="mistral-ai"></a>Mistral AI
 
-**85 models** available in **12 regions**
+**13 models** across **12 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 12 |
-| us-east-2 | US East (Ohio) | 8 |
-| us-west-2 | US West (Oregon) | 12 |
-| ca-central-1 | Canada (Central) | 3 |
-| eu-central-1 | Europe (Frankfurt) | 1 |
-| eu-west-1 | Europe (Ireland) | 8 |
-| eu-west-2 | Europe (London) | 7 |
-| eu-west-3 | Europe (Paris) | 4 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 7 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 3 |
-| ap-south-1 | Asia Pacific (Mumbai) | 10 |
-| sa-east-1 | South America (São Paulo) | 10 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `mistral.magistral-small-2509` | ✅ | ✅ | ✅ | - | - | - | - | - | ✅ | - | ✅ | ✅ |
+| `mistral.ministral-3-14b-instruct` | ✅ | ✅ | ✅ | - | - | ✅ | ✅ | - | ✅ | - | ✅ | ✅ |
+| `mistral.ministral-3-3b-instruct` | ✅ | ✅ | ✅ | - | - | - | - | - | ✅ | - | ✅ | ✅ |
+| `mistral.ministral-3-8b-instruct` | ✅ | ✅ | ✅ | - | - | ✅ | ✅ | - | ✅ | - | ✅ | ✅ |
+| `mistral.mistral-7b-instruct-v0:2` | ✅ | - | ✅ | ✅ | - | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ |
+| `mistral.mistral-large-2402-v1:0` | ✅ | - | ✅ | ✅ | - | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ |
+| `mistral.mistral-large-2407-v1:0` | - | - | ✅ | - | - | - | - | - | - | - | - | - |
+| `mistral.mistral-large-3-675b-instruct` | ✅ | ✅ | ✅ | - | - | - | - | - | ✅ | - | ✅ | ✅ |
+| `mistral.mistral-small-2402-v1:0` | ✅ | - | - | - | - | - | - | - | - | - | - | - |
+| `mistral.mixtral-8x7b-instruct-v0:1` | ✅ | - | ✅ | ✅ | - | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ |
+| `mistral.pixtral-large-2502-v1:0` | ✅ | ✅ | ✅ | - | ✅ | ✅ | - | ✅ | - | - | - | - |
+| `mistral.voxtral-mini-3b-2507` | ✅ | ✅ | ✅ | - | - | ✅ | ✅ | - | ✅ | - | ✅ | ✅ |
+| `mistral.voxtral-small-24b-2507` | ✅ | ✅ | ✅ | - | - | ✅ | ✅ | - | ✅ | - | ✅ | ✅ |
 
 ### <a id="moonshot-ai"></a>Moonshot AI
 
-**6 models** available in **6 regions**
+**1 models** across **6 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 1 |
-| us-east-2 | US East (Ohio) | 1 |
-| us-west-2 | US West (Oregon) | 1 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 1 |
-| ap-south-1 | Asia Pacific (Mumbai) | 1 |
-| sa-east-1 | South America (São Paulo) | 1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|
+| `moonshot.kimi-k2-thinking` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="nvidia"></a>NVIDIA
 
-**23 models** available in **8 regions**
+**3 models** across **8 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 3 |
-| us-east-2 | US East (Ohio) | 3 |
-| us-west-2 | US West (Oregon) | 3 |
-| eu-west-1 | Europe (Ireland) | 2 |
-| eu-west-2 | Europe (London) | 3 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 3 |
-| ap-south-1 | Asia Pacific (Mumbai) | 3 |
-| sa-east-1 | South America (São Paulo) | 3 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `nvidia.nemotron-nano-12b-v2` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `nvidia.nemotron-nano-3-30b` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ |
+| `nvidia.nemotron-nano-9b-v2` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="openai"></a>OpenAI
 
-**34 models** available in **9 regions**
+**4 models** across **9 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 4 |
-| us-east-2 | US East (Ohio) | 4 |
-| us-west-2 | US West (Oregon) | 4 |
-| eu-central-1 | Europe (Frankfurt) | 2 |
-| eu-west-1 | Europe (Ireland) | 4 |
-| eu-west-2 | Europe (London) | 4 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 4 |
-| ap-south-1 | Asia Pacific (Mumbai) | 4 |
-| sa-east-1 | South America (São Paulo) | 4 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `openai.gpt-oss-120b-1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `openai.gpt-oss-20b-1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `openai.gpt-oss-safeguard-120b` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `openai.gpt-oss-safeguard-20b` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="qwen"></a>Qwen
 
-**45 models** available in **9 regions**
+**6 models** across **9 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 4 |
-| us-east-2 | US East (Ohio) | 6 |
-| us-west-2 | US West (Oregon) | 6 |
-| eu-central-1 | Europe (Frankfurt) | 3 |
-| eu-west-1 | Europe (Ireland) | 4 |
-| eu-west-2 | Europe (London) | 6 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 6 |
-| ap-south-1 | Asia Pacific (Mumbai) | 6 |
-| sa-east-1 | South America (São Paulo) | 4 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `qwen.qwen3-235b-a22b-2507-v1:0` | - | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | - |
+| `qwen.qwen3-32b-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `qwen.qwen3-coder-30b-a3b-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `qwen.qwen3-coder-480b-a35b-v1:0` | - | ✅ | ✅ | - | - | ✅ | ✅ | ✅ | - |
+| `qwen.qwen3-next-80b-a3b` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `qwen.qwen3-vl-235b-a22b` | ✅ | ✅ | ✅ | - | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="stability-ai"></a>Stability AI
 
-**42 models** available in **3 regions**
+**16 models** across **3 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 13 |
-| us-east-2 | US East (Ohio) | 13 |
-| us-west-2 | US West (Oregon) | 16 |
+| Model | us-east-1 | us-east-2 | us-west-2 |
+|-------|:---:|:---:|:---:|
+| `stability.sd3-5-large-v1:0` | - | - | ✅ |
+| `stability.stable-conservative-upscale-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-creative-upscale-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-fast-upscale-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-control-sketch-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-control-structure-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-core-v1:1` | - | - | ✅ |
+| `stability.stable-image-erase-object-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-inpaint-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-remove-background-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-search-recolor-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-search-replace-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-style-guide-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-image-ultra-v1:1` | - | - | ✅ |
+| `stability.stable-outpaint-v1:0` | ✅ | ✅ | ✅ |
+| `stability.stable-style-transfer-v1:0` | ✅ | ✅ | ✅ |
 
 ### <a id="twelvelabs"></a>TwelveLabs
 
-**20 models** available in **14 regions**
+**3 models** across **14 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 3 |
-| us-east-2 | US East (Ohio) | 1 |
-| us-west-2 | US West (Oregon) | 1 |
-| ca-central-1 | Canada (Central) | 1 |
-| eu-central-1 | Europe (Frankfurt) | 1 |
-| eu-west-1 | Europe (Ireland) | 3 |
-| eu-west-2 | Europe (London) | 1 |
-| eu-west-3 | Europe (Paris) | 1 |
-| ap-northeast-1 | Asia Pacific (Tokyo) | 1 |
-| ap-northeast-2 | Asia Pacific (Seoul) | 3 |
-| ap-southeast-1 | Asia Pacific (Singapore) | 1 |
-| ap-southeast-2 | Asia Pacific (Sydney) | 1 |
-| ap-south-1 | Asia Pacific (Mumbai) | 1 |
-| sa-east-1 | South America (São Paulo) | 1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `twelvelabs.marengo-embed-2-7-v1:0` | ✅ | - | - | - | - | ✅ | - | - | - | ✅ | - | - | - | - |
+| `twelvelabs.marengo-embed-3-0-v1:0` | ✅ | - | - | - | - | ✅ | - | - | - | ✅ | - | - | - | - |
+| `twelvelabs.pegasus-1-2-v1:0` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### <a id="writer"></a>Writer
 
-**6 models** available in **3 regions**
+**2 models** across **3 regions**
 
-| Region | Region Name | Models |
-|--------|-------------|--------|
-| us-east-1 | US East (N. Virginia) | 2 |
-| us-east-2 | US East (Ohio) | 2 |
-| us-west-2 | US West (Oregon) | 2 |
+| Model | us-east-1 | us-east-2 | us-west-2 |
+|-------|:---:|:---:|:---:|
+| `writer.palmyra-x4-v1:0` | ✅ | ✅ | ✅ |
+| `writer.palmyra-x5-v1:0` | ✅ | ✅ | ✅ |
 
 ---
 
-*Last updated: 2026-01-26 12:44:51 UTC*
+*Last updated: 2026-01-26 12:52:11 UTC*
 
 <!-- BEDROCK_AVAILABILITY_END -->
 
