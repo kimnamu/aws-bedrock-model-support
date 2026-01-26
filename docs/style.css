@@ -1,0 +1,189 @@
+:root {
+    --primary-color: #232f3e;
+    --secondary-color: #ff9900;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.stat-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.stat-card .card-title {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.stat-card .card-text {
+    font-weight: 700;
+}
+
+.provider-section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.provider-header {
+    background: linear-gradient(135deg, var(--primary-color), #37475a);
+    color: white;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.provider-header:hover {
+    background: linear-gradient(135deg, #37475a, var(--primary-color));
+}
+
+.provider-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.provider-header .badge {
+    font-size: 0.8rem;
+}
+
+.provider-content {
+    padding: 1rem;
+}
+
+.provider-content.collapsed {
+    display: none;
+}
+
+.availability-table {
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+.availability-table thead th {
+    background-color: #f1f3f5;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+.availability-table thead th:first-child {
+    text-align: left;
+    min-width: 200px;
+}
+
+.availability-table tbody td {
+    text-align: center;
+    padding: 0.4rem;
+    vertical-align: middle;
+}
+
+.availability-table tbody td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+.availability-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.check-icon {
+    color: var(--success-color);
+    font-size: 1.1rem;
+}
+
+.cross-icon {
+    color: #dee2e6;
+    font-size: 0.9rem;
+}
+
+.region-header {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    padding: 0.5rem 0.3rem !important;
+    font-size: 0.75rem;
+    max-width: 40px;
+}
+
+.model-name {
+    word-break: break-word;
+    max-width: 300px;
+}
+
+.toggle-icon {
+    transition: transform 0.2s;
+}
+
+.toggle-icon.collapsed {
+    transform: rotate(-90deg);
+}
+
+#loading {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-select, .form-control {
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .stat-card {
+        margin-bottom: 1rem;
+    }
+
+    .provider-content {
+        overflow-x: auto;
+    }
+
+    .region-header {
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: 0.65rem;
+    }
+}
+
+/* DataTables customization */
+.dataTables_wrapper .dataTables_filter {
+    display: none;
+}
+
+.dataTables_wrapper .dataTables_length {
+    margin-bottom: 1rem;
+}
+
+.dataTables_info {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
