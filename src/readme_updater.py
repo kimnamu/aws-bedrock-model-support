@@ -55,13 +55,14 @@ MIT License
         return provider.lower().replace(" ", "-").replace(".", "")
 
     def _format_timestamps(self, utc_time: datetime) -> str:
-        """Format timestamp in multiple timezones (UTC, PST, KST)."""
-        utc_str = utc_time.strftime("%Y-%m-%d %H:%M UTC")
+        """Format timestamp in multiple timezones as a clean table."""
+        utc_str = utc_time.strftime("%Y-%m-%d %H:%M")
         pst_time = utc_time.astimezone(TZ_PST)
-        pst_str = pst_time.strftime("%H:%M PST")
+        pst_str = pst_time.strftime("%Y-%m-%d %H:%M")
         kst_time = utc_time.astimezone(TZ_KST)
-        kst_str = kst_time.strftime("%Y-%m-%d %H:%M KST")
-        return f"{utc_str} / {pst_str} / {kst_str}"
+        kst_str = kst_time.strftime("%Y-%m-%d %H:%M")
+
+        return f"| UTC | PST (US West) | KST (Korea) |\n|:---:|:---:|:---:|\n| {utc_str} | {pst_str} | {kst_str} |"
 
     def generate_markdown_table(
         self,
@@ -92,20 +93,25 @@ MIT License
 
         lines: List[str] = []
 
-        # Badges and timestamp
-        timestamp = self._format_timestamps(matrix.generated_at)
+        # Badges
         lines.append(f"![Last Updated](https://img.shields.io/badge/Last%20Updated-{matrix.generated_at.strftime('%Y--%-m--%-d')}-blue)")
         lines.append(f" ![Regions](https://img.shields.io/badge/Regions-{len(regions)}-green)")
         lines.append(f" ![Providers](https://img.shields.io/badge/Providers-{len(providers)}-orange)")
         lines.append("")
-        lines.append(f"> **Last updated:** {timestamp}")
+
+        # Timestamp table
+        lines.append("### Last Updated")
+        lines.append("")
+        timestamp = self._format_timestamps(matrix.generated_at)
+        lines.append(timestamp)
         lines.append("")
 
-        # Table of Contents
+        # Table of Contents as a table
         lines.append("## Table of Contents")
         lines.append("")
+        lines.append("| Provider | Models | Regions |")
+        lines.append("|:---------|-------:|--------:|")
 
-        # Provider model counts
         for provider in providers:
             anchor = self._generate_provider_anchor(provider)
             if model_region_availability and provider in model_region_availability:
@@ -113,7 +119,7 @@ MIT License
             else:
                 model_count = sum(provider_region_counts.get(provider, {}).values())
             region_count = len([r for r in regions if provider_region_counts.get(provider, {}).get(r.region, 0) > 0])
-            lines.append(f"- [{provider}](#{anchor}) - {model_count} models, {region_count} regions")
+            lines.append(f"| [{provider}](#{anchor}) | {model_count} | {region_count} |")
 
         lines.append("")
         lines.append("---")
@@ -204,7 +210,7 @@ MIT License
     def _generate_empty_table(self, generated_at: datetime) -> str:
         """Generate empty table when no data is available."""
         timestamp = self._format_timestamps(generated_at)
-        return f"No model data available.\n\n*Last updated: {timestamp}*"
+        return f"No model data available.\n\n### Last Updated\n\n{timestamp}"
 
     def generate_summary_section(self, summary: ProviderSummary) -> str:
         """
