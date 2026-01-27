@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Bedrock Model Availability</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">AWS Bedrock Model Availability</span>
+            <span class="navbar-text" id="last-updated"></span>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <!-- Stats Cards -->
+        <div class="row mb-4" id="stats-row">
+            <div class="col-md-3">
+                <div class="card stat-card bg-primary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Models</h5>
+                        <h2 class="card-text" id="total-models">-</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stat-card bg-success text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Regions</h5>
+                        <h2 class="card-text" id="total-regions">-</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stat-card bg-warning text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Providers</h5>
+                        <h2 class="card-text" id="total-providers">-</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stat-card bg-info text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Source</h5>
+                        <h6 class="card-text">AWS Bedrock API</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <label for="provider-filter" class="form-label">Filter by Provider</label>
+                <select class="form-select" id="provider-filter">
+                    <option value="">All Providers</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="region-filter" class="form-label">Filter by Region</label>
+                <select class="form-select" id="region-filter">
+                    <option value="">All Regions</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="search-input" class="form-label">Search Model</label>
+                <input type="text" class="form-control" id="search-input" placeholder="Search...">
+            </div>
+        </div>
+
+        <!-- Provider Sections -->
+        <div id="provider-sections"></div>
+
+        <!-- Loading -->
+        <div id="loading" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading model data...</p>
+        </div>
+
+        <!-- Error -->
+        <div id="error" class="alert alert-danger d-none" role="alert">
+            Failed to load data. Please try again later.
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                Data updated daily from AWS Bedrock API |
+                <a href="https://github.com/kimnamu/aws-bedrock-model-support" target="_blank">GitHub</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+    <script src="model-names.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
