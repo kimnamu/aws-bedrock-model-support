@@ -6,7 +6,7 @@ Track AWS Bedrock model availability across regions.
 
 <!-- BEDROCK_AVAILABILITY_START -->
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--1--31-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--2--1-blue)
  ![Regions](https://img.shields.io/badge/Regions-14-green)
  ![Providers](https://img.shields.io/badge/Providers-17-orange)
 
@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-01-31 23:10 | 2026-01-31 15:10 | 2026-02-01 08:10 |
+| 2026-02-01 00:10 | 2026-01-31 16:10 | 2026-02-01 09:10 |
 
 ## Table of Contents
 
