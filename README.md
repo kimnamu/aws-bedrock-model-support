@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-06 22:10 | 2026-02-06 14:10 | 2026-02-07 07:10 |
+| 2026-02-06 23:10 | 2026-02-06 15:10 | 2026-02-07 08:10 |
 
 ## Table of Contents
 
@@ -24,11 +24,11 @@ Track AWS Bedrock model availability across regions.
 | [Amazon](#amazon) | 32 | 14 |
 | [Anthropic](#anthropic) | 32 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
-| [DeepSeek](#deepseek) | 2 | 6 |
+| [DeepSeek](#deepseek) | 3 | 7 |
 | [Google](#google) | 3 | 8 |
 | [Luma AI](#luma-ai) | 1 | 1 |
 | [Meta](#meta) | 19 | 9 |
-| [MiniMax](#minimax) | 1 | 8 |
+| [MiniMax](#minimax) | 2 | 9 |
 | [Mistral AI](#mistral-ai) | 13 | 12 |
 | [Moonshot AI](#moonshot-ai) | 1 | 6 |
 | [NVIDIA](#nvidia) | 3 | 8 |
@@ -147,12 +147,13 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="deepseek">DeepSeek (2 models, 6 regions)</h3></summary>
+<summary><h3 id="deepseek">DeepSeek (3 models, 7 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|
-| DeepSeek R1 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| DeepSeek V3 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| DeepSeek R1 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| DeepSeek V3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| DeepSeek V3 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 </details>
 
@@ -204,11 +205,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="minimax">MiniMax (1 models, 8 regions)</h3></summary>
+<summary><h3 id="minimax">MiniMax (2 models, 9 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MiniMax M2 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 </details>
 
@@ -331,7 +333,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **148** |
+| Total Models | **150** |
 | Total Regions | **14** |
 | Providers | **17** |
 
@@ -343,11 +345,11 @@ Track AWS Bedrock model availability across regions.
 | Amazon | 32 | 14 |
 | Anthropic | 32 | 14 |
 | Cohere | 8 | 14 |
-| DeepSeek | 2 | 6 |
+| DeepSeek | 3 | 7 |
 | Google | 3 | 8 |
 | Luma AI | 1 | 1 |
 | Meta | 19 | 9 |
-| MiniMax | 1 | 8 |
+| MiniMax | 2 | 9 |
 | Mistral AI | 13 | 12 |
 | Moonshot AI | 1 | 6 |
 | NVIDIA | 3 | 8 |

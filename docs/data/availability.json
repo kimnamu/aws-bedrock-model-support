@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06 22:10:45 UTC",
+  "generated_at": "2026-02-06 23:10:47 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -647,6 +647,35 @@
         ]
       }
     },
+    "DeepSeek": {
+      "deepseek.v3.2": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "eu-west-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "deepseek.r1-v1:0": {
+        "regions": [
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "deepseek.v3-v1:0": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "eu-west-2",
+          "us-east-2",
+          "us-west-2"
+        ]
+      }
+    },
     "Amazon": {
       "amazon.nova-2-multimodal-embeddings-v1:0": {
         "regions": [
@@ -922,6 +951,16 @@
           "eu-west-1",
           "eu-west-2",
           "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "minimax.minimax-m2.1": {
+        "regions": [
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
           "us-east-1",
           "us-east-2",
           "us-west-2"
@@ -1269,24 +1308,6 @@
       "ai21.jamba-1-5-mini-v1:0": {
         "regions": [
           "us-east-1"
-        ]
-      }
-    },
-    "DeepSeek": {
-      "deepseek.r1-v1:0": {
-        "regions": [
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "deepseek.v3-v1:0": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-south-1",
-          "eu-west-2",
-          "us-east-2",
-          "us-west-2"
         ]
       }
     },
