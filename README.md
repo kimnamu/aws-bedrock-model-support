@@ -2,6 +2,17 @@
 
 Track AWS Bedrock model availability across regions.
 
+<!-- NEWS_START -->
+
+## 📰 News
+
+| 날짜 | 유형 | Provider | Model | Regions |
+|:-----|:-----|:---------|:------|:--------|
+| 2026-02-06 | 🆕 추가 | Anthropic | Claude Opus 4.6 | 14개 리전 |
+| 2026-02-06 | 📍 확장 | NVIDIA | Nemotron Nano 30B | eu-west-1 |
+
+<!-- NEWS_END -->
+
 ## Model Availability
 
 <!-- BEDROCK_AVAILABILITY_START -->
