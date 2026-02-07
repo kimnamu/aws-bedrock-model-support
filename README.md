@@ -6,15 +6,15 @@ Track AWS Bedrock model availability across regions.
 
 <!-- BEDROCK_AVAILABILITY_START -->
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--2--6-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--2--7-blue)
  ![Regions](https://img.shields.io/badge/Regions-14-green)
- ![Providers](https://img.shields.io/badge/Providers-17-orange)
+ ![Providers](https://img.shields.io/badge/Providers-18-orange)
 
 ### Last Updated
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-06 23:10 | 2026-02-06 15:10 | 2026-02-07 08:10 |
+| 2026-02-07 00:10 | 2026-02-06 16:10 | 2026-02-07 09:10 |
 
 ## Table of Contents
 
@@ -30,13 +30,14 @@ Track AWS Bedrock model availability across regions.
 | [Meta](#meta) | 19 | 9 |
 | [MiniMax](#minimax) | 2 | 9 |
 | [Mistral AI](#mistral-ai) | 13 | 12 |
-| [Moonshot AI](#moonshot-ai) | 1 | 6 |
+| [Moonshot AI](#moonshot-ai) | 2 | 7 |
 | [NVIDIA](#nvidia) | 3 | 8 |
 | [OpenAI](#openai) | 4 | 9 |
-| [Qwen](#qwen) | 6 | 9 |
+| [Qwen](#qwen) | 7 | 9 |
 | [Stability AI](#stability-ai) | 16 | 3 |
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 2 | 3 |
+| [Z.AI](#zai) | 2 | 9 |
 
 ---
 
@@ -210,7 +211,7 @@ Track AWS Bedrock model availability across regions.
 | Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | MiniMax M2 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -236,11 +237,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="moonshot-ai">Moonshot AI (1 models, 6 regions)</h3></summary>
+<summary><h3 id="moonshot-ai">Moonshot AI (2 models, 7 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|
-| Kimi K2 Thinking | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Kimi K2 Thinking | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| Kimi K2.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -268,7 +270,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="qwen">Qwen (6 models, 9 regions)</h3></summary>
+<summary><h3 id="qwen">Qwen (7 models, 9 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -278,6 +280,7 @@ Track AWS Bedrock model availability across regions.
 | Qwen3 Next 80B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Qwen3 Coder 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Qwen3 32B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Qwen3 Coder Next | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 </details>
 
@@ -326,6 +329,16 @@ Track AWS Bedrock model availability across regions.
 
 </details>
 
+<details>
+<summary><h3 id="zai">Z.AI (2 models, 9 regions)</h3></summary>
+
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Glm 4.7 Flash | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+
+</details>
+
 
 ---
 
@@ -333,9 +346,9 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **150** |
+| Total Models | **154** |
 | Total Regions | **14** |
-| Providers | **17** |
+| Providers | **18** |
 
 ### Provider Breakdown
 
@@ -351,13 +364,14 @@ Track AWS Bedrock model availability across regions.
 | Meta | 19 | 9 |
 | MiniMax | 2 | 9 |
 | Mistral AI | 13 | 12 |
-| Moonshot AI | 1 | 6 |
+| Moonshot AI | 2 | 7 |
 | NVIDIA | 3 | 8 |
 | OpenAI | 4 | 9 |
-| Qwen | 6 | 9 |
+| Qwen | 7 | 9 |
 | Stability AI | 16 | 3 |
 | TwelveLabs | 3 | 14 |
 | Writer | 2 | 3 |
+| Z.AI | 2 | 9 |
 
 ---
 
