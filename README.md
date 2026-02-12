@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-12 17:10 | 2026-02-12 09:10 | 2026-02-13 02:10 |
+| 2026-02-12 18:10 | 2026-02-12 10:10 | 2026-02-13 03:10 |
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Track AWS Bedrock model availability across regions.
 | [Amazon](#amazon) | 32 | 14 |
 | [Anthropic](#anthropic) | 32 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
-| [DeepSeek](#deepseek) | 3 | 7 |
+| [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 8 |
 | [Luma AI](#luma-ai) | 1 | 1 |
 | [Meta](#meta) | 19 | 9 |
@@ -148,13 +148,13 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="deepseek">DeepSeek (3 models, 7 regions)</h3></summary>
+<summary><h3 id="deepseek">DeepSeek (3 models, 8 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| DeepSeek R1 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| DeepSeek V3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| DeepSeek V3 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| DeepSeek R1 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| DeepSeek V3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| DeepSeek V3 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 </details>
 
@@ -358,7 +358,7 @@ Track AWS Bedrock model availability across regions.
 | Amazon | 32 | 14 |
 | Anthropic | 32 | 14 |
 | Cohere | 8 | 14 |
-| DeepSeek | 3 | 7 |
+| DeepSeek | 3 | 8 |
 | Google | 3 | 8 |
 | Luma AI | 1 | 1 |
 | Meta | 19 | 9 |
