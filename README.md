@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-12 18:10 | 2026-02-12 10:10 | 2026-02-13 03:10 |
+| 2026-02-12 19:10 | 2026-02-12 11:10 | 2026-02-13 04:10 |
 
 ## Table of Contents
 
@@ -25,19 +25,19 @@ Track AWS Bedrock model availability across regions.
 | [Anthropic](#anthropic) | 32 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
-| [Google](#google) | 3 | 8 |
+| [Google](#google) | 3 | 9 |
 | [Luma AI](#luma-ai) | 1 | 1 |
 | [Meta](#meta) | 19 | 9 |
-| [MiniMax](#minimax) | 2 | 9 |
+| [MiniMax](#minimax) | 2 | 10 |
 | [Mistral AI](#mistral-ai) | 13 | 12 |
-| [Moonshot AI](#moonshot-ai) | 2 | 7 |
-| [NVIDIA](#nvidia) | 3 | 8 |
-| [OpenAI](#openai) | 4 | 9 |
-| [Qwen](#qwen) | 7 | 9 |
+| [Moonshot AI](#moonshot-ai) | 2 | 8 |
+| [NVIDIA](#nvidia) | 3 | 9 |
+| [OpenAI](#openai) | 4 | 10 |
+| [Qwen](#qwen) | 7 | 10 |
 | [Stability AI](#stability-ai) | 16 | 3 |
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 2 | 3 |
-| [Z.AI](#zai) | 2 | 9 |
+| [Z.AI](#zai) | 2 | 10 |
 
 ---
 
@@ -159,13 +159,13 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="google">Google (3 models, 8 regions)</h3></summary>
+<summary><h3 id="google">Google (3 models, 9 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Gemma 3 27B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Gemma 3 12B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Gemma 3 4B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Gemma 3 27B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gemma 3 12B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gemma 3 4B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -206,12 +206,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="minimax">MiniMax (2 models, 9 regions)</h3></summary>
+<summary><h3 id="minimax">MiniMax (2 models, 10 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| MiniMax M2 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MiniMax M2 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -220,67 +220,67 @@ Track AWS Bedrock model availability across regions.
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Mistral Large 3 675B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| Mistral Large 3 675B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Pixtral Large | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Mistral Large | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Mistral Large 2 | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Magistral Small | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| Magistral Small | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Mistral Small | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Voxtral Small 24B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| Voxtral Mini 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| Voxtral Small 24B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Voxtral Mini 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Mixtral 8x7B | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Mistral 7B | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
-| Ministral 14B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| Ministral 8B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| Ministral 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| Ministral 14B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Ministral 8B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Ministral 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
 <details>
-<summary><h3 id="moonshot-ai">Moonshot AI (2 models, 7 regions)</h3></summary>
+<summary><h3 id="moonshot-ai">Moonshot AI (2 models, 8 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Kimi K2 Thinking | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
-| Kimi K2.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-
-</details>
-
-<details>
-<summary><h3 id="nvidia">NVIDIA (3 models, 8 regions)</h3></summary>
-
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Nemotron Nano 12B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Nemotron Nano 9B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Nemotron Nano 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Kimi K2 Thinking | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Kimi K2.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
 <details>
-<summary><h3 id="openai">OpenAI (4 models, 9 regions)</h3></summary>
+<summary><h3 id="nvidia">NVIDIA (3 models, 9 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| GPT OSS 120B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS 20B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS Safeguard 120B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS Safeguard 20B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Nemotron Nano 12B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Nemotron Nano 9B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Nemotron Nano 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
 <details>
-<summary><h3 id="qwen">Qwen (7 models, 9 regions)</h3></summary>
+<summary><h3 id="openai">OpenAI (4 models, 10 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Qwen3 Coder 480B | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
-| Qwen3 235B | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ |
-| Qwen3 VL 235B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Qwen3 Next 80B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Qwen3 Coder 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Qwen3 32B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Qwen3 Coder Next | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| GPT OSS 120B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GPT OSS 20B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GPT OSS Safeguard 120B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GPT OSS Safeguard 20B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+</details>
+
+<details>
+<summary><h3 id="qwen">Qwen (7 models, 10 regions)</h3></summary>
+
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Qwen3 Coder 480B | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Qwen3 235B | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Qwen3 VL 235B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Qwen3 Next 80B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Qwen3 Coder 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Qwen3 32B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Qwen3 Coder Next | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 
 </details>
 
@@ -330,12 +330,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="zai">Z.AI (2 models, 9 regions)</h3></summary>
+<summary><h3 id="zai">Z.AI (2 models, 10 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Glm 4.7 Flash | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Glm 4.7 Flash | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -359,19 +359,19 @@ Track AWS Bedrock model availability across regions.
 | Anthropic | 32 | 14 |
 | Cohere | 8 | 14 |
 | DeepSeek | 3 | 8 |
-| Google | 3 | 8 |
+| Google | 3 | 9 |
 | Luma AI | 1 | 1 |
 | Meta | 19 | 9 |
-| MiniMax | 2 | 9 |
+| MiniMax | 2 | 10 |
 | Mistral AI | 13 | 12 |
-| Moonshot AI | 2 | 7 |
-| NVIDIA | 3 | 8 |
-| OpenAI | 4 | 9 |
-| Qwen | 7 | 9 |
+| Moonshot AI | 2 | 8 |
+| NVIDIA | 3 | 9 |
+| OpenAI | 4 | 10 |
+| Qwen | 7 | 10 |
 | Stability AI | 16 | 3 |
 | TwelveLabs | 3 | 14 |
 | Writer | 2 | 3 |
-| Z.AI | 2 | 9 |
+| Z.AI | 2 | 10 |
 
 ---
 
