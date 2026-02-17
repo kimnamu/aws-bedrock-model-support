@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17 17:10:47 UTC",
+  "generated_at": "2026-02-17 18:10:46 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -213,6 +213,15 @@
           "eu-west-2",
           "eu-west-3",
           "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "anthropic.claude-sonnet-4-6": {
+        "regions": [
+          "ca-central-1",
+          "eu-west-3",
           "us-east-1",
           "us-east-2",
           "us-west-2"
@@ -1066,6 +1075,20 @@
           "ap-northeast-1",
           "ap-south-1",
           "ap-southeast-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "mistral.devstral-2-123b": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
           "sa-east-1",
           "us-east-1",
           "us-east-2",

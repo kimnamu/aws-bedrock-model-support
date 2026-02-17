@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-17 17:10 | 2026-02-17 09:10 | 2026-02-18 02:10 |
+| 2026-02-17 18:10 | 2026-02-17 10:10 | 2026-02-18 03:10 |
 
 ## Table of Contents
 
@@ -22,14 +22,14 @@ Track AWS Bedrock model availability across regions.
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
 | [Amazon](#amazon) | 32 | 14 |
-| [Anthropic](#anthropic) | 32 | 14 |
+| [Anthropic](#anthropic) | 33 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 9 |
 | [Luma AI](#luma-ai) | 1 | 1 |
 | [Meta](#meta) | 19 | 9 |
 | [MiniMax](#minimax) | 2 | 10 |
-| [Mistral AI](#mistral-ai) | 13 | 12 |
+| [Mistral AI](#mistral-ai) | 14 | 12 |
 | [Moonshot AI](#moonshot-ai) | 2 | 8 |
 | [NVIDIA](#nvidia) | 3 | 9 |
 | [OpenAI](#openai) | 4 | 10 |
@@ -92,7 +92,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="anthropic">Anthropic (32 models, 14 regions)</h3></summary>
+<summary><h3 id="anthropic">Anthropic (33 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -103,6 +103,7 @@ Track AWS Bedrock model availability across regions.
 | Claude Opus 4.1 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Claude Opus 4 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Claude Sonnet 4 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Claude Sonnet 4.6 | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Claude 3.7 Sonnet | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude 3.5 Sonnet | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude 3.5 Sonnet v2 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
@@ -216,7 +217,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="mistral-ai">Mistral AI (13 models, 12 regions)</h3></summary>
+<summary><h3 id="mistral-ai">Mistral AI (14 models, 12 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -230,6 +231,7 @@ Track AWS Bedrock model availability across regions.
 | Voxtral Mini 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Mixtral 8x7B | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Mistral 7B | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| Devstral 2 123B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Ministral 14B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Ministral 8B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Ministral 3B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
@@ -346,7 +348,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **154** |
+| Total Models | **156** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -356,14 +358,14 @@ Track AWS Bedrock model availability across regions.
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
 | Amazon | 32 | 14 |
-| Anthropic | 32 | 14 |
+| Anthropic | 33 | 14 |
 | Cohere | 8 | 14 |
 | DeepSeek | 3 | 8 |
 | Google | 3 | 9 |
 | Luma AI | 1 | 1 |
 | Meta | 19 | 9 |
 | MiniMax | 2 | 10 |
-| Mistral AI | 13 | 12 |
+| Mistral AI | 14 | 12 |
 | Moonshot AI | 2 | 8 |
 | NVIDIA | 3 | 9 |
 | OpenAI | 4 | 10 |
