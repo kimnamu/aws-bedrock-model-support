@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-02-17 16:10 | 2026-02-17 08:10 | 2026-02-18 01:10 |
+| 2026-02-17 17:10 | 2026-02-17 09:10 | 2026-02-18 02:10 |
 
 ## Table of Contents
 
