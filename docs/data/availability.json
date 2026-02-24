@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24 15:10:54 UTC",
+  "generated_at": "2026-02-24 16:10:49 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -299,34 +299,27 @@
       },
       "anthropic.claude-instant-v1:2:100k": {
         "regions": [
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-v2:0:18k": {
         "regions": [
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-v2:0:100k": {
         "regions": [
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-v2:1:18k": {
         "regions": [
-          "eu-central-1",
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-v2:1:200k": {
         "regions": [
-          "eu-central-1",
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-3-sonnet-20240229-v1:0:28k": {
