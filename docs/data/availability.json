@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24 13:10:51 UTC",
+  "generated_at": "2026-02-24 14:10:46 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -317,12 +317,14 @@
       },
       "anthropic.claude-v2:1:18k": {
         "regions": [
+          "eu-central-1",
           "us-east-1",
           "us-west-2"
         ]
       },
       "anthropic.claude-v2:1:200k": {
         "regions": [
+          "eu-central-1",
           "us-east-1",
           "us-west-2"
         ]
