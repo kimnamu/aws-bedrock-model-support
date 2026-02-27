@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27 21:10:48 UTC",
+  "generated_at": "2026-02-27 22:10:48 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -332,7 +332,6 @@
           "ca-central-1",
           "eu-central-1",
           "eu-west-1",
-          "eu-west-2",
           "eu-west-3",
           "sa-east-1",
           "us-east-1",
