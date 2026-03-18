@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-03-18 18:10 | 2026-03-18 10:10 | 2026-03-19 03:10 |
+| 2026-03-18 19:10 | 2026-03-18 11:10 | 2026-03-19 04:10 |
 
 ## Table of Contents
 
@@ -28,16 +28,16 @@ Track AWS Bedrock model availability across regions.
 | [Google](#google) | 3 | 9 |
 | [Luma AI](#luma-ai) | 1 | 1 |
 | [Meta](#meta) | 19 | 9 |
-| [MiniMax](#minimax) | 2 | 10 |
+| [MiniMax](#minimax) | 3 | 10 |
 | [Mistral AI](#mistral-ai) | 14 | 12 |
 | [Moonshot AI](#moonshot-ai) | 2 | 8 |
-| [NVIDIA](#nvidia) | 3 | 9 |
+| [NVIDIA](#nvidia) | 4 | 9 |
 | [OpenAI](#openai) | 4 | 10 |
 | [Qwen](#qwen) | 7 | 10 |
 | [Stability AI](#stability-ai) | 16 | 3 |
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 2 | 3 |
-| [Z.AI](#zai) | 2 | 10 |
+| [Z.AI](#zai) | 3 | 10 |
 
 ---
 
@@ -198,11 +198,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="minimax">MiniMax (2 models, 10 regions)</h3></summary>
+<summary><h3 id="minimax">MiniMax (3 models, 10 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | MiniMax M2 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MiniMax M2 | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | MiniMax M2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
@@ -240,13 +241,14 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="nvidia">NVIDIA (3 models, 9 regions)</h3></summary>
+<summary><h3 id="nvidia">NVIDIA (4 models, 9 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Nemotron Nano 12B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Nemotron Nano 9B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Nemotron Nano 30B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Nemotron Super 3 120B | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 </details>
 
@@ -323,11 +325,12 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="zai">Z.AI (2 models, 10 regions)</h3></summary>
+<summary><h3 id="zai">Z.AI (3 models, 10 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Glm 4.7 Flash | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Glm 5 | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
@@ -339,7 +342,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **147** |
+| Total Models | **150** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -355,16 +358,16 @@ Track AWS Bedrock model availability across regions.
 | Google | 3 | 9 |
 | Luma AI | 1 | 1 |
 | Meta | 19 | 9 |
-| MiniMax | 2 | 10 |
+| MiniMax | 3 | 10 |
 | Mistral AI | 14 | 12 |
 | Moonshot AI | 2 | 8 |
-| NVIDIA | 3 | 9 |
+| NVIDIA | 4 | 9 |
 | OpenAI | 4 | 10 |
 | Qwen | 7 | 10 |
 | Stability AI | 16 | 3 |
 | TwelveLabs | 3 | 14 |
 | Writer | 2 | 3 |
-| Z.AI | 2 | 10 |
+| Z.AI | 3 | 10 |
 
 ---
 
