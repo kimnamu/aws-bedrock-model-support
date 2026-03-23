@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23 18:10:47 UTC",
+  "generated_at": "2026-03-23 19:10:53 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -88,7 +88,15 @@
       },
       "nvidia.nemotron-super-3-120b": {
         "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
           "us-east-1",
+          "us-east-2",
           "us-west-2"
         ]
       },
@@ -973,7 +981,15 @@
       },
       "minimax.minimax-m2.5": {
         "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
           "us-east-1",
+          "us-east-2",
           "us-west-2"
         ]
       },
@@ -1009,7 +1025,13 @@
       },
       "zai.glm-5": {
         "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-west-2",
+          "sa-east-1",
           "us-east-1",
+          "us-east-2",
           "us-west-2"
         ]
       },
@@ -1274,6 +1296,13 @@
         ]
       },
       "writer.palmyra-x4-v1:0": {
+        "regions": [
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "writer.palmyra-vision-7b": {
         "regions": [
           "us-east-1",
           "us-east-2",
