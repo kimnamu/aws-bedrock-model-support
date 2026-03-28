@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27 23:10:48 UTC",
+  "generated_at": "2026-03-28 00:10:46 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -399,8 +399,7 @@
           "ap-southeast-2",
           "eu-central-1",
           "eu-west-3",
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-3-5-sonnet-20241022-v2:0": {
@@ -410,8 +409,7 @@
           "ap-south-1",
           "ap-southeast-1",
           "ap-southeast-2",
-          "us-east-1",
-          "us-west-2"
+          "us-east-1"
         ]
       },
       "anthropic.claude-3-7-sonnet-20250219-v1:0": {
@@ -441,36 +439,6 @@
         "regions": [
           "us-east-1",
           "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20241022-v2:0:18k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20241022-v2:0:51k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20241022-v2:0:200k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20240620-v1:0:18k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20240620-v1:0:51k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-sonnet-20240620-v1:0:200k": {
-        "regions": [
           "us-west-2"
         ]
       }
