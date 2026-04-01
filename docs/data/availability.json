@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31 23:10:57 UTC",
+  "generated_at": "2026-04-01 00:10:52 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -426,8 +426,7 @@
           "ap-northeast-2",
           "ap-south-1",
           "ap-southeast-1",
-          "ap-southeast-2",
-          "eu-west-3"
+          "ap-southeast-2"
         ]
       },
       "anthropic.claude-3-5-sonnet-20241022-v2:0": {
