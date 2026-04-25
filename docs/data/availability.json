@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25 03:10:54 UTC",
+  "generated_at": "2026-04-25 04:10:46 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -926,6 +926,11 @@
           "eu-west-3",
           "sa-east-1",
           "us-east-1",
+          "us-west-2"
+        ]
+      },
+      "amazon.titan-tg1-large": {
+        "regions": [
           "us-west-2"
         ]
       },
