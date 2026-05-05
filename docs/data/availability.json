@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05 22:10:48 UTC",
+  "generated_at": "2026-05-05 23:10:50 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -689,6 +689,18 @@
           "us-west-2"
         ]
       },
+      "amazon.nova-pro-v1:0:24k": {
+        "regions": [
+          "eu-west-2",
+          "us-east-1"
+        ]
+      },
+      "amazon.nova-pro-v1:0:300k": {
+        "regions": [
+          "eu-west-2",
+          "us-east-1"
+        ]
+      },
       "amazon.nova-2-lite-v1:0": {
         "regions": [
           "ap-northeast-1",
@@ -757,16 +769,6 @@
           "us-east-1",
           "us-east-2",
           "us-west-2"
-        ]
-      },
-      "amazon.nova-pro-v1:0:24k": {
-        "regions": [
-          "us-east-1"
-        ]
-      },
-      "amazon.nova-pro-v1:0:300k": {
-        "regions": [
-          "us-east-1"
         ]
       },
       "amazon.nova-lite-v1:0:24k": {
