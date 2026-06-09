@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-06-09 17:10 | 2026-06-09 09:10 | 2026-06-10 02:10 |
+| 2026-06-09 18:10 | 2026-06-09 10:10 | 2026-06-10 03:10 |
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Track AWS Bedrock model availability across regions.
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
 | [Amazon](#amazon) | 31 | 14 |
-| [Anthropic](#anthropic) | 19 | 14 |
+| [Anthropic](#anthropic) | 20 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 9 |
@@ -91,7 +91,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="anthropic">Anthropic (19 models, 14 regions)</h3></summary>
+<summary><h3 id="anthropic">Anthropic (20 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -114,6 +114,7 @@ Track AWS Bedrock model availability across regions.
 | Claude 3 Haiku (48k) | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
 | Claude 3 Haiku (200k) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | Claude 3 Haiku | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Claude Fable 5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -337,7 +338,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **145** |
+| Total Models | **146** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -347,7 +348,7 @@ Track AWS Bedrock model availability across regions.
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
 | Amazon | 31 | 14 |
-| Anthropic | 19 | 14 |
+| Anthropic | 20 | 14 |
 | Cohere | 8 | 14 |
 | DeepSeek | 3 | 8 |
 | Google | 3 | 9 |
