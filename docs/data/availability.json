@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19 07:10:50 UTC",
+  "generated_at": "2026-06-19 08:10:53 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -439,13 +439,6 @@
           "eu-west-2",
           "eu-west-3",
           "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "anthropic.claude-3-5-haiku-20241022-v1:0": {
-        "regions": [
           "us-east-1",
           "us-east-2",
           "us-west-2"
