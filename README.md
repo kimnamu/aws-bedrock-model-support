@@ -14,14 +14,14 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-06-30 07:10 | 2026-06-29 23:10 | 2026-06-30 16:10 |
+| 2026-06-30 08:10 | 2026-06-30 00:10 | 2026-06-30 17:10 |
 
 ## Table of Contents
 
 | Provider | Models | Regions |
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
-| [Amazon](#amazon) | 31 | 14 |
+| [Amazon](#amazon) | 30 | 14 |
 | [Anthropic](#anthropic) | 19 | 14 |
 | [Cohere](#cohere) | 8 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
@@ -52,7 +52,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="amazon">Amazon (31 models, 14 regions)</h3></summary>
+<summary><h3 id="amazon">Amazon (30 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -85,7 +85,6 @@ Track AWS Bedrock model availability across regions.
 | Titan Embed G1 Text | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Titan Embed Image | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
 | Titan Embed Image | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Titan Image Generator v2 | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Amazon Rerank | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 </details>
@@ -337,7 +336,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **145** |
+| Total Models | **144** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -346,7 +345,7 @@ Track AWS Bedrock model availability across regions.
 | Provider | Models | Regions |
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
-| Amazon | 31 | 14 |
+| Amazon | 30 | 14 |
 | Anthropic | 19 | 14 |
 | Cohere | 8 | 14 |
 | DeepSeek | 3 | 8 |
