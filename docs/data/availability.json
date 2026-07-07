@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07 07:10:49 UTC",
+  "generated_at": "2026-07-07 08:10:46 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -1445,40 +1445,6 @@
           "us-west-2"
         ]
       },
-      "meta.llama3-2-11b-instruct-v1:0": {
-        "regions": [
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-90b-instruct-v1:0": {
-        "regions": [
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-1b-instruct-v1:0": {
-        "regions": [
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-3",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-3b-instruct-v1:0": {
-        "regions": [
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-3",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
       "meta.llama3-3-70b-instruct-v1:0": {
         "regions": [
           "us-east-1",
@@ -1509,32 +1475,6 @@
       "meta.llama3-1-70b-instruct-v1:0:128k": {
         "regions": [
           "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-1-405b-instruct-v1:0": {
-        "regions": [
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-11b-instruct-v1:0:128k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-90b-instruct-v1:0:128k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-1b-instruct-v1:0:128k": {
-        "regions": [
-          "us-west-2"
-        ]
-      },
-      "meta.llama3-2-3b-instruct-v1:0:128k": {
-        "regions": [
           "us-west-2"
         ]
       },

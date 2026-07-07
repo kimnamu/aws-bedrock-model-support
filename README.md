@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-07-07 07:10 | 2026-07-06 23:10 | 2026-07-07 16:10 |
+| 2026-07-07 08:10 | 2026-07-07 00:10 | 2026-07-07 17:10 |
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ Track AWS Bedrock model availability across regions.
 | [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 9 |
 | [Luma AI](#luma-ai) | 1 | 1 |
-| [Meta](#meta) | 19 | 9 |
+| [Meta](#meta) | 10 | 6 |
 | [MiniMax](#minimax) | 3 | 10 |
 | [Mistral AI](#mistral-ai) | 14 | 12 |
 | [Moonshot AI](#moonshot-ai) | 2 | 8 |
@@ -165,29 +165,20 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="meta">Meta (19 models, 9 regions)</h3></summary>
+<summary><h3 id="meta">Meta (10 models, 6 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-south-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Llama 4 Maverick 17B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 4 Scout 17B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.3 70B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.3 70B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 90B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 90B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 11B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 11B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 3B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Llama 3.2 3B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.2 1B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Llama 3.2 1B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.1 405B | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.1 70B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.1 70B (128k) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.1 8B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3.1 8B (128k) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Llama 3 70B | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Llama 3 8B | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-west-2 | ap-south-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|
+| Llama 4 Maverick 17B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 4 Scout 17B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.3 70B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.3 70B (128k) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.1 70B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.1 70B (128k) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.1 8B | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3.1 8B (128k) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Llama 3 70B | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Llama 3 8B | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -337,7 +328,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **145** |
+| Total Models | **136** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -352,7 +343,7 @@ Track AWS Bedrock model availability across regions.
 | DeepSeek | 3 | 8 |
 | Google | 3 | 9 |
 | Luma AI | 1 | 1 |
-| Meta | 19 | 9 |
+| Meta | 10 | 6 |
 | MiniMax | 3 | 10 |
 | Mistral AI | 14 | 12 |
 | Moonshot AI | 2 | 8 |
