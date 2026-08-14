@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-08-14 20:10 | 2026-08-14 12:10 | 2026-08-15 05:10 |
+| 2026-08-14 21:10 | 2026-08-14 13:10 | 2026-08-15 06:10 |
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ Track AWS Bedrock model availability across regions.
 | [Mistral AI](#mistral-ai) | 14 | 12 |
 | [Moonshot AI](#moonshot-ai) | 2 | 8 |
 | [NVIDIA](#nvidia) | 4 | 10 |
-| [OpenAI](#openai) | 4 | 10 |
+| [OpenAI](#openai) | 7 | 14 |
 | [Qwen](#qwen) | 7 | 10 |
 | [Stability AI](#stability-ai) | 16 | 3 |
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
@@ -239,14 +239,17 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="openai">OpenAI (4 models, 10 regions)</h3></summary>
+<summary><h3 id="openai">OpenAI (7 models, 14 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| GPT OSS 120B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS 20B | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS Safeguard 120B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GPT OSS Safeguard 20B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| GPT OSS 120B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| GPT OSS 20B | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| GPT OSS Safeguard 120B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| GPT OSS Safeguard 20B | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Gpt 5.6 Terra | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gpt 5.6 Luna | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gpt 5.6 Sol | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -329,7 +332,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **137** |
+| Total Models | **140** |
 | Total Regions | **14** |
 | Providers | **18** |
 
@@ -349,7 +352,7 @@ Track AWS Bedrock model availability across regions.
 | Mistral AI | 14 | 12 |
 | Moonshot AI | 2 | 8 |
 | NVIDIA | 4 | 10 |
-| OpenAI | 4 | 10 |
+| OpenAI | 7 | 14 |
 | Qwen | 7 | 10 |
 | Stability AI | 16 | 3 |
 | TwelveLabs | 3 | 14 |
