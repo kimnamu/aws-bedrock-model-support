@@ -8,13 +8,13 @@ Track AWS Bedrock model availability across regions.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--8--19-blue)
  ![Regions](https://img.shields.io/badge/Regions-14-green)
- ![Providers](https://img.shields.io/badge/Providers-18-orange)
+ ![Providers](https://img.shields.io/badge/Providers-19-orange)
 
 ### Last Updated
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-08-19 16:10 | 2026-08-19 08:10 | 2026-08-20 01:10 |
+| 2026-08-19 17:10 | 2026-08-19 09:10 | 2026-08-20 02:10 |
 
 ## Table of Contents
 
@@ -38,6 +38,7 @@ Track AWS Bedrock model availability across regions.
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 3 | 3 |
 | [Z.AI](#zai) | 3 | 10 |
+| [xAI](#xai) | 1 | 14 |
 
 ---
 
@@ -323,6 +324,15 @@ Track AWS Bedrock model availability across regions.
 
 </details>
 
+<details>
+<summary><h3 id="xai">xAI (1 models, 14 regions)</h3></summary>
+
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Grok 4.6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+</details>
+
 
 ---
 
@@ -330,9 +340,9 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **138** |
+| Total Models | **139** |
 | Total Regions | **14** |
-| Providers | **18** |
+| Providers | **19** |
 
 ### Provider Breakdown
 
@@ -356,6 +366,7 @@ Track AWS Bedrock model availability across regions.
 | TwelveLabs | 3 | 14 |
 | Writer | 3 | 3 |
 | Z.AI | 3 | 10 |
+| xAI | 1 | 14 |
 
 ---
 
