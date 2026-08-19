@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19 07:10:47 UTC",
+  "generated_at": "2026-08-19 08:10:50 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -1372,18 +1372,6 @@
           "sa-east-1",
           "us-east-1",
           "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "cohere.command-r-v1:0": {
-        "regions": [
-          "us-east-1",
-          "us-west-2"
-        ]
-      },
-      "cohere.command-r-plus-v1:0": {
-        "regions": [
-          "us-east-1",
           "us-west-2"
         ]
       },
