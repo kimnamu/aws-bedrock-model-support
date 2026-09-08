@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 21:10:53 UTC",
+  "generated_at": "2026-09-08 22:10:50 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -59,6 +59,134 @@
     }
   },
   "providers": {
+    "OpenAI": {
+      "openai.gpt-6-astra": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-5.6-terra": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-oss-120b-1:0": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-oss-20b-1:0": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-oss-safeguard-120b": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-5.6-luna": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-5.6-sol": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "openai.gpt-oss-safeguard-20b": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-south-1",
+          "ap-southeast-2",
+          "eu-west-1",
+          "eu-west-2",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      }
+    },
     "NVIDIA": {
       "nvidia.nemotron-nano-12b-v2": {
         "regions": [
@@ -193,116 +321,6 @@
           "ap-south-1",
           "ap-southeast-2",
           "eu-west-2",
-          "us-east-2",
-          "us-west-2"
-        ]
-      }
-    },
-    "OpenAI": {
-      "openai.gpt-5.6-terra": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-northeast-2",
-          "ap-south-1",
-          "ap-southeast-1",
-          "ap-southeast-2",
-          "ca-central-1",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "eu-west-3",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-oss-120b-1:0": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-south-1",
-          "ap-southeast-2",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-oss-20b-1:0": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-south-1",
-          "ap-southeast-2",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-oss-safeguard-120b": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-south-1",
-          "ap-southeast-2",
-          "eu-west-1",
-          "eu-west-2",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-5.6-luna": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-northeast-2",
-          "ap-south-1",
-          "ap-southeast-1",
-          "ap-southeast-2",
-          "ca-central-1",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "eu-west-3",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-5.6-sol": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-northeast-2",
-          "ap-south-1",
-          "ap-southeast-1",
-          "ap-southeast-2",
-          "ca-central-1",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "eu-west-3",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
-      "openai.gpt-oss-safeguard-20b": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-south-1",
-          "ap-southeast-2",
-          "eu-west-1",
-          "eu-west-2",
-          "sa-east-1",
-          "us-east-1",
           "us-east-2",
           "us-west-2"
         ]
