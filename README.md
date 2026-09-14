@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-09-14 09:10 | 2026-09-14 01:10 | 2026-09-14 18:10 |
+| 2026-09-14 10:10 | 2026-09-14 02:10 | 2026-09-14 19:10 |
 
 ## Table of Contents
 
@@ -643,8 +643,6 @@ Bedrock API 호출 시 사용하는 Model ID 목록입니다.
 ## Usage
 
 This repository is automatically updated every hour.
-
-Browse the same data as a filterable dashboard: https://kimnamu.github.io/aws-bedrock-model-support/ (GitHub Pages, served from `docs/`).
 
 ## License
 
