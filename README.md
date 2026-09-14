@@ -644,6 +644,8 @@ Bedrock API 호출 시 사용하는 Model ID 목록입니다.
 
 This repository is automatically updated every hour.
 
+Browse the same data as a filterable dashboard: https://kimnamu.github.io/aws-bedrock-model-support/ (GitHub Pages, served from `docs/`).
+
 ## License
 
 MIT License
