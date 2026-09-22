@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-09-22 16:10 | 2026-09-22 08:10 | 2026-09-23 01:10 |
+| 2026-09-22 17:10 | 2026-09-22 09:10 | 2026-09-23 02:10 |
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Track AWS Bedrock model availability across regions.
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
 | [Amazon](#amazon) | 24 | 14 |
-| [Anthropic](#anthropic) | 22 | 14 |
+| [Anthropic](#anthropic) | 23 | 14 |
 | [Cohere](#cohere) | 6 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 9 |
@@ -85,7 +85,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="anthropic">Anthropic (22 models, 14 regions)</h3></summary>
+<summary><h3 id="anthropic">Anthropic (23 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -107,6 +107,7 @@ Track AWS Bedrock model availability across regions.
 | Claude 3 Haiku | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Claude 3 Haiku (200k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Claude 3 Haiku (48k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Claude Opus 5.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Fable 5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Opus 5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Fable 5.1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -337,7 +338,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **136** |
+| Total Models | **137** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -347,7 +348,7 @@ Track AWS Bedrock model availability across regions.
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
 | Amazon | 24 | 14 |
-| Anthropic | 22 | 14 |
+| Anthropic | 23 | 14 |
 | Cohere | 6 | 14 |
 | DeepSeek | 3 | 8 |
 | Google | 3 | 9 |
