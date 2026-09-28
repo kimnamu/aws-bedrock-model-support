@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-09-28 20:10 | 2026-09-28 12:10 | 2026-09-29 05:10 |
+| 2026-09-28 21:10 | 2026-09-28 13:10 | 2026-09-29 06:10 |
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ Track AWS Bedrock model availability across regions.
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 3 | 3 |
 | [Z.AI](#zai) | 3 | 10 |
-| [xAI](#xai) | 1 | 14 |
+| [xAI](#xai) | 2 | 14 |
 
 ---
 
@@ -328,10 +328,11 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="xai">xAI (1 models, 14 regions)</h3></summary>
+<summary><h3 id="xai">xAI (2 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Grok 4.7 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Grok 4.6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
@@ -343,7 +344,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **142** |
+| Total Models | **143** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -369,7 +370,7 @@ Track AWS Bedrock model availability across regions.
 | TwelveLabs | 3 | 14 |
 | Writer | 3 | 3 |
 | Z.AI | 3 | 10 |
-| xAI | 1 | 14 |
+| xAI | 2 | 14 |
 
 ---
 

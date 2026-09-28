@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 20:10:49 UTC",
+  "generated_at": "2026-09-28 21:10:49 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -1196,6 +1196,44 @@
         ]
       }
     },
+    "xAI": {
+      "xai.grok-4.7": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      },
+      "xai.grok-4.6": {
+        "regions": [
+          "ap-northeast-1",
+          "ap-northeast-2",
+          "ap-south-1",
+          "ap-southeast-1",
+          "ap-southeast-2",
+          "ca-central-1",
+          "eu-central-1",
+          "eu-west-1",
+          "eu-west-2",
+          "eu-west-3",
+          "sa-east-1",
+          "us-east-1",
+          "us-east-2",
+          "us-west-2"
+        ]
+      }
+    },
     "Mistral AI": {
       "mistral.voxtral-mini-3b-2507": {
         "regions": [
@@ -1356,26 +1394,6 @@
       },
       "mistral.mistral-large-2407-v1:0": {
         "regions": [
-          "us-west-2"
-        ]
-      }
-    },
-    "xAI": {
-      "xai.grok-4.6": {
-        "regions": [
-          "ap-northeast-1",
-          "ap-northeast-2",
-          "ap-south-1",
-          "ap-southeast-1",
-          "ap-southeast-2",
-          "ca-central-1",
-          "eu-central-1",
-          "eu-west-1",
-          "eu-west-2",
-          "eu-west-3",
-          "sa-east-1",
-          "us-east-1",
-          "us-east-2",
           "us-west-2"
         ]
       }
