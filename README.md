@@ -14,14 +14,14 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-09-30 07:11 | 2026-09-29 23:11 | 2026-09-30 16:11 |
+| 2026-09-30 08:10 | 2026-09-30 00:10 | 2026-09-30 17:10 |
 
 ## Table of Contents
 
 | Provider | Models | Regions |
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
-| [Amazon](#amazon) | 24 | 14 |
+| [Amazon](#amazon) | 21 | 14 |
 | [Anthropic](#anthropic) | 24 | 14 |
 | [Cohere](#cohere) | 6 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
@@ -53,7 +53,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="amazon">Amazon (24 models, 14 regions)</h3></summary>
+<summary><h3 id="amazon">Amazon (21 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -70,9 +70,6 @@ Track AWS Bedrock model availability across regions.
 | Nova Micro (24k) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Nova Micro (128k) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Nova Micro | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Nova Canvas | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Nova Reel v1.1 | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Nova Reel | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Titan Embed Text v2 (8k) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Titan Embed Text v2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Titan Embed Text (8k) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -345,7 +342,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **144** |
+| Total Models | **141** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -354,7 +351,7 @@ Track AWS Bedrock model availability across regions.
 | Provider | Models | Regions |
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
-| Amazon | 24 | 14 |
+| Amazon | 21 | 14 |
 | Anthropic | 24 | 14 |
 | Cohere | 6 | 14 |
 | DeepSeek | 3 | 8 |
