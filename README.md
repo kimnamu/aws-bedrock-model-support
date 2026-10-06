@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-10-06 18:10 | 2026-10-06 10:10 | 2026-10-07 03:10 |
+| 2026-10-06 19:10 | 2026-10-06 11:10 | 2026-10-07 04:10 |
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ Track AWS Bedrock model availability across regions.
 | [Stability AI](#stability-ai) | 16 | 3 |
 | [TwelveLabs](#twelvelabs) | 3 | 14 |
 | [Writer](#writer) | 3 | 3 |
-| [Z.AI](#zai) | 3 | 10 |
+| [Z.AI](#zai) | 4 | 14 |
 | [xAI](#xai) | 2 | 14 |
 
 ---
@@ -316,13 +316,14 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="zai">Z.AI (3 models, 10 regions)</h3></summary>
+<summary><h3 id="zai">Z.AI (4 models, 14 regions)</h3></summary>
 
-| Model | us-east-1 | us-east-2 | us-west-2 | eu-central-1 | eu-west-1 | eu-west-2 | ap-northeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
-|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Glm 4.7 Flash | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Glm 5 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
+|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Glm 5.3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Glm 4.7 Flash | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Glm 5 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Glm 4.7 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -343,7 +344,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **142** |
+| Total Models | **143** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -368,7 +369,7 @@ Track AWS Bedrock model availability across regions.
 | Stability AI | 16 | 3 |
 | TwelveLabs | 3 | 14 |
 | Writer | 3 | 3 |
-| Z.AI | 3 | 10 |
+| Z.AI | 4 | 14 |
 | xAI | 2 | 14 |
 
 ---
