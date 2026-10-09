@@ -6,7 +6,7 @@ Track AWS Bedrock model availability across regions.
 
 <!-- BEDROCK_AVAILABILITY_START -->
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--10--8-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--10--9-blue)
  ![Regions](https://img.shields.io/badge/Regions-14-green)
  ![Providers](https://img.shields.io/badge/Providers-19-orange)
 
@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-10-08 23:10 | 2026-10-08 15:10 | 2026-10-09 08:10 |
+| 2026-10-09 00:10 | 2026-10-08 16:10 | 2026-10-09 09:10 |
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ Track AWS Bedrock model availability across regions.
 | [OpenAI](#openai) | 13 | 14 |
 | [Qwen](#qwen) | 7 | 10 |
 | [Stability AI](#stability-ai) | 16 | 3 |
-| [TwelveLabs](#twelvelabs) | 3 | 14 |
+| [TwelveLabs](#twelvelabs) | 4 | 14 |
 | [Writer](#writer) | 3 | 3 |
 | [Z.AI](#zai) | 4 | 14 |
 | [xAI](#xai) | 2 | 14 |
@@ -295,13 +295,14 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="twelvelabs">TwelveLabs (3 models, 14 regions)</h3></summary>
+<summary><h3 id="twelvelabs">TwelveLabs (4 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Pegasus 1.2 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Marengo Embed 3.0 | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Marengo Embed 2.7 | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Pegasus 1.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 </details>
 
@@ -345,7 +346,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **144** |
+| Total Models | **145** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -368,7 +369,7 @@ Track AWS Bedrock model availability across regions.
 | OpenAI | 13 | 14 |
 | Qwen | 7 | 10 |
 | Stability AI | 16 | 3 |
-| TwelveLabs | 3 | 14 |
+| TwelveLabs | 4 | 14 |
 | Writer | 3 | 3 |
 | Z.AI | 4 | 14 |
 | xAI | 2 | 14 |
