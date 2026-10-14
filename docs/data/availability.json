@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 08:10:50 UTC",
+  "generated_at": "2026-10-14 09:10:47 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -417,13 +417,6 @@
       }
     },
     "Anthropic": {
-      "anthropic.claude-sonnet-4-20250514-v1:0": {
-        "regions": [
-          "us-east-1",
-          "us-east-2",
-          "us-west-2"
-        ]
-      },
       "anthropic.claude-haiku-4-5-20251001-v1:0": {
         "regions": [
           "ap-northeast-1",
