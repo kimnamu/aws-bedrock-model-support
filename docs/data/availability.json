@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 15:10:50 UTC",
+  "generated_at": "2026-10-20 16:10:56 UTC",
   "regions": {
     "us-east-1": {
       "name": "us-east-1",
@@ -679,6 +679,7 @@
       "anthropic.claude-3-sonnet-20240229-v1:0": {
         "regions": [
           "ap-south-1",
+          "ap-southeast-1",
           "ca-central-1",
           "eu-west-2",
           "sa-east-1"
@@ -688,6 +689,7 @@
         "regions": [
           "ap-northeast-2",
           "ap-south-1",
+          "ap-southeast-1",
           "ca-central-1",
           "sa-east-1"
         ]
@@ -701,7 +703,8 @@
       "anthropic.claude-3-5-sonnet-20240620-v1:0": {
         "regions": [
           "ap-northeast-2",
-          "ap-south-1"
+          "ap-south-1",
+          "ap-southeast-1"
         ]
       },
       "anthropic.claude-3-haiku-20240307-v1:0:200k": {
@@ -712,12 +715,19 @@
       "anthropic.claude-3-5-sonnet-20241022-v2:0": {
         "regions": [
           "ap-northeast-2",
-          "ap-south-1"
+          "ap-south-1",
+          "ap-southeast-1"
         ]
       },
       "anthropic.claude-3-sonnet-20240229-v1:0:28k": {
         "regions": [
-          "ap-south-1"
+          "ap-south-1",
+          "ap-southeast-1"
+        ]
+      },
+      "anthropic.claude-3-sonnet-20240229-v1:0:200k": {
+        "regions": [
+          "ap-southeast-1"
         ]
       },
       "anthropic.claude-3-haiku-20240307-v1:0:48k": {
