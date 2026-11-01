@@ -1,0 +1,187 @@
+{
+ "_about": "Field-tested behaviour, measured with boto3 / raw HTTPS against the Bedrock Converse API (us. inference profiles, us-east-1). Each entry lists only what was measured on the given date. 'no' = request rejected with the quoted error, 'ok' = accepted.",
+ "anthropic.claude-opus-5-5": {
+  "measured": "2026-09-23",
+  "rows": [
+   [
+    "no",
+    "temperature other than 1",
+    "400 \"`temperature` is deprecated for this model.\" (temperature=1 is accepted)"
+   ],
+   [
+    "no",
+    "topP (any value, including 1.0) and top_k",
+    "400"
+   ],
+   [
+    "no",
+    "toolChoice any / tool (forced tool)",
+    "400 \"tool_choice: type \"tool\" and \"any\" are not supported for this model.\" (auto is accepted)"
+   ],
+   [
+    "no",
+    "thinking enabled + budget_tokens",
+    "400, use thinking.type.adaptive and output_config.effort"
+   ],
+   [
+    "no",
+    "thinking disabled",
+    "400 \"\"thinking.type.disabled\" is not supported for this model.\""
+   ],
+   [
+    "no",
+    "assistant prefill (last message from assistant)",
+    "400 \"does not support assistant message prefill\""
+   ],
+   [
+    "ok",
+    "output_config.effort low / high / xhigh, thinking adaptive, stopSequences, InvokeModel",
+    ""
+   ],
+   [
+    "no",
+    "maxTokens 200000",
+    "ValidationException \"exceeds the model limit of 128000\""
+   ]
+  ]
+ },
+ "anthropic.claude-sonnet-5-5": {
+  "measured": "2026-10-05",
+  "rows": [
+   [
+    "no",
+    "temperature=0.2",
+    "400 \"`temperature` is deprecated for this model.\" (temperature=1 is accepted)"
+   ],
+   [
+    "no",
+    "topP=0.9",
+    "400 \"`top_p` is deprecated for this model.\""
+   ],
+   [
+    "no",
+    "toolChoice any / tool (forced tool)",
+    "400 \"tool_choice: type \"tool\" and \"any\" are not supported for this model.\""
+   ],
+   [
+    "no",
+    "thinking enabled + budget_tokens",
+    "400 \"Use thinking.type.adaptive and output_config.effort\""
+   ],
+   [
+    "no",
+    "thinking disabled",
+    "400 (the message suggests between_tools)"
+   ],
+   [
+    "ok",
+    "thinking between_tools (rejected on Opus 5.5)",
+    ""
+   ],
+   [
+    "no",
+    "assistant prefill",
+    "400 \"This model does not support assistant message prefill.\""
+   ]
+  ]
+ },
+ "openai.gpt-6-sol": {
+  "measured": "2026-09-23",
+  "rows": [
+   [
+    "no",
+    "bare model ID",
+    "400 \"on-demand throughput isn't supported\". Use us. or global. (there are no eu. / apac. / jp. profiles: \"The provided model identifier is invalid.\")"
+   ],
+   [
+    "no",
+    "inferenceConfig.temperature / topP",
+    "400 \"This model doesn't support the temperature field. Remove temperature and try again.\""
+   ],
+   [
+    "no",
+    "inferenceConfig.stopSequences",
+    "400"
+   ],
+   [
+    "no",
+    "additionalModelRequestFields.reasoning_effort (gpt-oss style)",
+    "400 \"Unknown parameter: 'reasoning_effort'.\""
+   ],
+   [
+    "ok",
+    "additionalModelRequestFields.reasoning.effort: none, low, medium, high, xhigh, max",
+    "minimal is rejected"
+   ],
+   [
+    "no",
+    "document blocks",
+    "400 \"doesn't support the document field for user messages\""
+   ],
+   [
+    "no",
+    "cachePoint (prompt caching)",
+    "AccessDeniedException \"You invoked an unsupported model or your request did not allow prompt caching.\""
+   ],
+   [
+    "info",
+    "reasoning comes back as reasoningContent.redactedContent only",
+    "Send that block back as is. A synthetic reasoningContent.reasoningText in history is rejected with 400."
+   ],
+   [
+    "info",
+    "maxTokens too small",
+    "stopReason max_tokens with only a reasoningContent block and no text block"
+   ],
+   [
+    "ok",
+    "toolChoice auto / any / tool, parallel tool calls, images, outputConfig.textFormat json_schema, assistant prefill",
+    ""
+   ],
+   [
+    "no",
+    "maxTokens 200000",
+    "400 \"exceeds the model limit of 131072\""
+   ]
+  ]
+ },
+ "openai.gpt-6-luna": {
+  "same_as": "openai.gpt-6-sol",
+  "measured": "2026-09-23"
+ },
+ "openai.gpt-6.1-sol": {
+  "measured": "2026-10-05",
+  "rows": [
+   [
+    "info",
+    "same Converse behaviour as GPT-6 Sol in all 19 measured rows, except effort none",
+    "temperature, topP, stopSequences, documents and cachePoint are rejected; reasoning comes back redacted"
+   ],
+   [
+    "info",
+    "cachePoint changed over time",
+    "AccessDeniedException on 2026-10-05; accepted without error on 2026-11-01. The daily probe above shows the current answer."
+   ],
+   [
+    "no",
+    "reasoning effort none",
+    "400 \"Unsupported value: 'none' is not supported with this model. Supported values are: 'low', 'medium', 'high', 'xhigh', and 'max'.\""
+   ],
+   [
+    "no",
+    "function tools on /openai/v1/chat/completions",
+    "always 400, use /v1/responses"
+   ],
+   [
+    "no",
+    "max_tokens on chat completions",
+    "400 unsupported_parameter, use max_completion_tokens"
+   ],
+   [
+    "info",
+    "ID separator",
+    "openai.gpt-6.1-sol, not gpt-6-1-sol. Patterns like gpt-6-(sol|luna|astra) do not match it."
+   ]
+  ]
+ }
+}

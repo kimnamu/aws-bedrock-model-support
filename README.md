@@ -2,6 +2,8 @@
 
 Track AWS Bedrock model availability across regions.
 
+**Dashboard: [Bedrock Model Explorer](https://kimnamu.github.io/aws-bedrock-model-support/)** — which model ID or inference profile to call from your region, what each model accepts (temperature, stop sequences, forced tools, cachePoint, prefill; measured daily), what's new and what is retiring.
+
 ## Model Availability
 
 <!-- BEDROCK_AVAILABILITY_START -->
