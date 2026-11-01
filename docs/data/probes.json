@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-01T00:08Z",
+"measured_at": "2026-11-01T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1207,8 +1207,8 @@ true,
 ""
 ],
 "temperature": [
-true,
-""
+false,
+"network The read operation timed out"
 ],
 "tool_auto": [
 true,
