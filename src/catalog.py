@@ -102,7 +102,8 @@ def build():
             e = prof.setdefault(p["inferenceProfileId"], {"name": p.get("inferenceProfileName"), "from": [], "to": set(), "models": set()})
             e["from"].append(r)
             for x in p.get("models") or []:
-                e["to"].add(arn_region(x["modelArn"]))
+                if arn_region(x["modelArn"]):          # global profiles also list a region-less ARN (arn:aws:bedrock:::...) meaning "any region"
+                    e["to"].add(arn_region(x["modelArn"]))
                 e["models"].add(x["modelArn"].rsplit("/", 1)[-1])
     for pid, e in prof.items():
         e["to"], e["models"] = sorted(e["to"]), sorted(e["models"])
