@@ -183,5 +183,40 @@
     "openai.gpt-6.1-sol, not gpt-6-1-sol. Patterns like gpt-6-(sol|luna|astra) do not match it."
    ]
   ]
+ },
+ "openai.gpt-6.1-terra": {
+  "measured": "2026-11-01",
+  "rows": [
+   [
+    "no",
+    "bare model ID",
+    "400 \"Invocation of model ID openai.gpt-6.1-terra with on-demand throughput isn't supported.\" Use us. or global. (no eu. / apac. / jp. / au. profile)"
+   ],
+   [
+    "ok",
+    "reasoning effort none, low, max (additionalModelRequestFields.reasoning.effort)",
+    "none is accepted on Terra, unlike GPT-6.1 Sol and GPT-6 Astra"
+   ],
+   [
+    "no",
+    "reasoning effort minimal",
+    "400 \"Supported values are: 'none', 'low', 'medium', 'high', 'xhigh', and 'max'.\""
+   ],
+   [
+    "no",
+    "maxTokens 200000",
+    "400 \"exceeds the model limit of 128000\" (GPT-6.1 Sol: 131072)"
+   ],
+   [
+    "no",
+    "document blocks",
+    "400 \"This model doesn't support documents.\""
+   ],
+   [
+    "info",
+    "ID separator",
+    "openai.gpt-6.1-terra, not gpt-6-1-terra"
+   ]
+  ]
  }
 }
