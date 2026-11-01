@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T23:54:14Z",
+ "generated_at": "2026-11-01T01:39:11Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -10693,7 +10693,6 @@
    "name": "GLOBAL Amazon Nova 2 Lite",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-south-1",
@@ -10737,7 +10736,6 @@
    "name": "Global Anthropic Claude Fable 5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -10783,7 +10781,6 @@
    "name": "Global Anthropic Claude Fable 5.1",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -10829,7 +10826,6 @@
    "name": "Global Anthropic Claude Haiku 4.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -10875,7 +10871,6 @@
    "name": "Global Anthropic Claude Haiku 5.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -10921,7 +10916,6 @@
    "name": "GLOBAL Anthropic Claude Opus 4.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -10967,7 +10961,6 @@
    "name": "Global Anthropic Claude Opus 4.6",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11013,7 +11006,6 @@
    "name": "Global Anthropic Claude Opus 4.7",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11059,7 +11051,6 @@
    "name": "Global Anthropic Claude Opus 4.8",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11105,7 +11096,6 @@
    "name": "Global Anthropic Claude Opus 5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11151,7 +11141,6 @@
    "name": "Global Anthropic Claude Opus 5.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11184,7 +11173,6 @@
    "name": "Global Claude Sonnet 4",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "eu-west-1",
     "us-east-2",
@@ -11217,7 +11205,6 @@
    "name": "Global Claude Sonnet 4.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11263,7 +11250,6 @@
    "name": "Global Anthropic Claude Sonnet 4.6",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11309,7 +11295,6 @@
    "name": "Global Anthropic Claude Sonnet 5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11355,7 +11340,6 @@
    "name": "Global Anthropic Claude Sonnet 5.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11401,7 +11385,6 @@
    "name": "Global Cohere Embed v4",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11447,7 +11430,6 @@
    "name": "Global Moonshot AI Kimi K3",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11493,7 +11475,6 @@
    "name": "Global OpenAI GPT 5.4",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11539,7 +11520,6 @@
    "name": "Global OpenAI GPT 5.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11585,7 +11565,6 @@
    "name": "Global OpenAI GPT-5.6 Luna",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11631,7 +11610,6 @@
    "name": "Global OpenAI GPT-5.6 Sol",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11677,7 +11655,6 @@
    "name": "Global OpenAI GPT-5.6 Terra",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11723,7 +11700,6 @@
    "name": "Global OpenAI GPT-6 Astra",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11769,7 +11745,6 @@
    "name": "Global OpenAI GPT-6 Luna",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11815,7 +11790,6 @@
    "name": "Global OpenAI GPT-6 Sol",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11861,7 +11835,6 @@
    "name": "Global OpenAI GPT-6.1 Sol",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11907,7 +11880,6 @@
    "name": "Global OpenAI GPT-6.1 Terra",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11953,7 +11925,6 @@
    "name": "GLOBAL TwelveLabs Pegasus v1.2",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -11999,7 +11970,6 @@
    "name": "Global TwelveLabs Pegasus v1.5",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -12045,7 +12015,6 @@
    "name": "Global xAI Grok 4.6",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -12091,7 +12060,6 @@
    "name": "Global xAI Grok 4.7",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
@@ -12137,7 +12105,6 @@
    "name": "Global Z.AI GLM 5.3",
    "scope": "global",
    "to": [
-    "",
     "ap-northeast-1",
     "ap-northeast-2",
     "ap-northeast-3",
