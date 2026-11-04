@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T06:36:53Z",
+ "generated_at": "2026-11-04T17:36:49Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -6554,8 +6554,8 @@
     "TEXT"
    ],
    "profiles": [
-    "global.openai.gpt-5.6-luna",
     "us.openai.gpt-5.6-luna",
+    "global.openai.gpt-5.6-luna",
     "in.openai.gpt-5.6-luna"
    ],
    "prompt_caching": true,
