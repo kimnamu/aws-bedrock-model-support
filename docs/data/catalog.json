@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T21:36:53Z",
+ "generated_at": "2026-11-06T22:36:51Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -6430,7 +6430,7 @@
    "eol": null,
    "extended": null,
    "family": "GPT",
-   "guardrails": false,
+   "guardrails": true,
    "images": [
     "jpeg",
     "png",
@@ -6533,7 +6533,7 @@
    "eol": null,
    "extended": null,
    "family": "GPT",
-   "guardrails": false,
+   "guardrails": true,
    "images": [
     "jpeg",
     "png",

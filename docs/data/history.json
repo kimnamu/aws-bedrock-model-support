@@ -1,6 +1,6 @@
 {
 "baseline": "2026-01-26T13:20Z",
-"last_commit": "87e4f860d7d1e46aed52f0fcfdb05eb5fad8ef5f",
+"last_commit": "2507d4472747cb65c39ff6072625c5c1d7a8bb37",
 "events": [
 {
 "t": "2026-02-03T03:10Z",
@@ -3127,6 +3127,28 @@
 "t": "2026-10-26T19:10Z",
 "model": "openai.gpt-6.1-terra",
 "provider": "OpenAI",
+"added": [
+"ap-northeast-1",
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1",
+"ap-southeast-2",
+"ca-central-1",
+"eu-central-1",
+"eu-west-1",
+"eu-west-2",
+"eu-west-3",
+"sa-east-1",
+"us-east-1",
+"us-east-2",
+"us-west-2"
+],
+"removed": []
+},
+{
+"t": "2026-11-06T22:10Z",
+"model": "moonshotai.kimi-k3.1",
+"provider": "Moonshot AI",
 "added": [
 "ap-northeast-1",
 "ap-northeast-2",
