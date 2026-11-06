@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:36:49Z",
+ "generated_at": "2026-11-06T21:36:53Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -6053,6 +6053,109 @@
    "system_role": true,
    "videos": []
   },
+  "moonshotai.kimi-k3.1": {
+   "batch": false,
+   "converse": true,
+   "count_tokens": false,
+   "customization": [],
+   "default_max_tokens": null,
+   "documents": [],
+   "eol": null,
+   "extended": null,
+   "family": "Kimi",
+   "guardrails": true,
+   "images": [
+    "jpeg",
+    "png",
+    "gif",
+    "webp"
+   ],
+   "input": [
+    "TEXT",
+    "IMAGE"
+   ],
+   "legacy": null,
+   "max_tokens": 1048576,
+   "name": "Kimi K3.1",
+   "no_sampling": false,
+   "openai_chat": true,
+   "openai_responses": true,
+   "output": [
+    "TEXT"
+   ],
+   "profiles": [
+    "global.moonshotai.kimi-k3.1",
+    "us.moonshotai.kimi-k3.1",
+    "in.moonshotai.kimi-k3.1"
+   ],
+   "prompt_caching": true,
+   "provider": "Moonshot AI",
+   "reasoning_field": "reasoning_config",
+   "reasoning_levels": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "regions": {
+    "ap-northeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-south-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ca-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-north-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "sa-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-2": [
+     "INFERENCE_PROFILE"
+    ]
+   },
+   "released": "2026-11-06T23:59:59Z",
+   "status": "ACTIVE",
+   "streaming": true,
+   "system_role": true,
+   "videos": []
+  },
   "nvidia.nemotron-nano-12b-v2": {
    "batch": true,
    "converse": true,
@@ -11449,6 +11552,51 @@
     "us-west-2"
    ]
   },
+  "global.moonshotai.kimi-k3.1": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1",
+    "sa-east-1",
+    "eu-central-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "eu-north-1",
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2"
+   ],
+   "models": [
+    "moonshotai.kimi-k3.1"
+   ],
+   "name": "Global Moonshot AI Kimi K3.1",
+   "scope": "global",
+   "to": [
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2",
+    "ca-central-1",
+    "eu-central-1",
+    "eu-north-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "sa-east-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
   "global.openai.gpt-5.4": {
    "from": [
     "us-east-1",
@@ -12174,6 +12322,20 @@
     "moonshotai.kimi-k3"
    ],
    "name": "IN Moonshot AI Kimi K3",
+   "scope": "in",
+   "to": [
+    "ap-south-1",
+    "ap-south-2"
+   ]
+  },
+  "in.moonshotai.kimi-k3.1": {
+   "from": [
+    "ap-south-1"
+   ],
+   "models": [
+    "moonshotai.kimi-k3.1"
+   ],
+   "name": "IN Moonshot AI Kimi K3.1",
    "scope": "in",
    "to": [
     "ap-south-1",
@@ -13000,6 +13162,27 @@
     "moonshotai.kimi-k3"
    ],
    "name": "US Moonshot AI Kimi K3",
+   "scope": "us",
+   "to": [
+    "ca-central-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
+  "us.moonshotai.kimi-k3.1": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1"
+   ],
+   "models": [
+    "moonshotai.kimi-k3.1"
+   ],
+   "name": "US Moonshot AI Kimi K3.1",
    "scope": "us",
    "to": [
     "ca-central-1",
