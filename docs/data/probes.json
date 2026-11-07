@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-06T21:39Z",
+"measured_at": "2026-11-07T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1796,79 +1796,11 @@ true,
 "via": "moonshotai.kimi-k2.5"
 },
 "moonshotai.kimi-k3": {
-"baseline": "",
-"results": {
-"cache_point": [
-false,
-"400 This model doesn't support the cachePoint field. Remove cachePoint and try again."
-],
-"prefill": [
-true,
-""
-],
-"stop_sequences": [
-false,
-"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
-],
-"system": [
-true,
-""
-],
-"temperature": [
-false,
-"400 This model doesn't support the temperature field. Remove temperature and try again."
-],
-"tool_auto": [
-true,
-""
-],
-"tool_forced": [
-true,
-""
-],
-"top_p": [
-false,
-"400 This model doesn't support the topP field. Remove topP and try again."
-]
-},
+"baseline": "429 Too many tokens, please wait before trying again.",
 "via": "us.moonshotai.kimi-k3"
 },
 "moonshotai.kimi-k3.1": {
-"baseline": "",
-"results": {
-"cache_point": [
-false,
-"400 This model doesn't support the cachePoint field. Remove cachePoint and try again."
-],
-"prefill": [
-true,
-""
-],
-"stop_sequences": [
-false,
-"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
-],
-"system": [
-true,
-""
-],
-"temperature": [
-false,
-"400 This model doesn't support the temperature field. Remove temperature and try again."
-],
-"tool_auto": [
-true,
-""
-],
-"tool_forced": [
-true,
-""
-],
-"top_p": [
-false,
-"400 This model doesn't support the topP field. Remove topP and try again."
-]
-},
+"baseline": "429 Too many tokens, please wait before trying again.",
 "via": "us.moonshotai.kimi-k3.1"
 },
 "nvidia.nemotron-nano-12b-v2": {
