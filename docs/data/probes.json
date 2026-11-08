@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-07T21:39Z",
+"measured_at": "2026-11-08T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1937,8 +1937,8 @@ true,
 ""
 ],
 "temperature": [
-true,
-""
+false,
+"500 The system encountered an unexpected error during processing. Try your request again."
 ],
 "tool_auto": [
 true,
