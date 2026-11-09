@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-08T21:39Z",
+"measured_at": "2026-11-09T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -236,6 +236,44 @@ false,
 ]
 },
 "via": "us.anthropic.claude-fable-5-1"
+},
+"anthropic.claude-fable-5-2": {
+"baseline": "",
+"results": {
+"cache_point": [
+true,
+""
+],
+"prefill": [
+false,
+"400 The model returned the following errors: This model does not support assistant message prefill. The conversation must end with a user message."
+],
+"stop_sequences": [
+true,
+""
+],
+"system": [
+true,
+""
+],
+"temperature": [
+false,
+"400 The model returned the following errors: `temperature` is deprecated for this model."
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+false,
+"400 The model returned the following errors: tool_choice: type \"tool\" and \"any\" are not supported for this model."
+],
+"top_p": [
+false,
+"400 The model returned the following errors: `top_p` is deprecated for this model."
+]
+},
+"via": "us.anthropic.claude-fable-5-2"
 },
 "anthropic.claude-haiku-4-5-20251001-v1:0": {
 "baseline": "",
@@ -1937,8 +1975,8 @@ true,
 ""
 ],
 "temperature": [
-false,
-"500 The system encountered an unexpected error during processing. Try your request again."
+true,
+""
 ],
 "tool_auto": [
 true,
