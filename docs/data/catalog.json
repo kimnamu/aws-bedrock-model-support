@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T19:36:53Z",
+ "generated_at": "2026-11-12T15:37:51Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -13980,7 +13980,7 @@
  ],
  "skipped_regions": {
   "ap-east-2": 403,
-  "ap-south-2": 403,
+  "ap-south-2": "timed out",
   "ap-southeast-3": 403,
   "ap-southeast-4": 403,
   "ap-southeast-5": 403,
