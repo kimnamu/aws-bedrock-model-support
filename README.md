@@ -14,7 +14,7 @@ Track AWS Bedrock model availability across regions.
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-11-13 07:10 | 2026-11-12 23:10 | 2026-11-13 16:10 |
+| 2026-11-13 08:10 | 2026-11-13 00:10 | 2026-11-13 17:10 |
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Track AWS Bedrock model availability across regions.
 |:---------|-------:|--------:|
 | [AI21 Labs](#ai21-labs) | 2 | 1 |
 | [Amazon](#amazon) | 22 | 14 |
-| [Anthropic](#anthropic) | 25 | 14 |
+| [Anthropic](#anthropic) | 18 | 14 |
 | [Cohere](#cohere) | 6 | 14 |
 | [DeepSeek](#deepseek) | 3 | 8 |
 | [Google](#google) | 3 | 9 |
@@ -83,7 +83,7 @@ Track AWS Bedrock model availability across regions.
 </details>
 
 <details>
-<summary><h3 id="anthropic">Anthropic (25 models, 14 regions)</h3></summary>
+<summary><h3 id="anthropic">Anthropic (18 models, 14 regions)</h3></summary>
 
 | Model | us-east-1 | us-east-2 | us-west-2 | ca-central-1 | eu-central-1 | eu-west-1 | eu-west-2 | eu-west-3 | ap-northeast-1 | ap-northeast-2 | ap-southeast-1 | ap-southeast-2 | ap-south-1 | sa-east-1 |
 |:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -95,15 +95,8 @@ Track AWS Bedrock model availability across regions.
 | Claude Opus 4.8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Opus 4.7 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Sonnet 4.6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Claude 3.7 Sonnet | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| Claude 3.5 Sonnet | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Claude 3.5 Sonnet v2 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Claude 3 Sonnet | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| Claude 3 Sonnet (28k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| Claude 3 Sonnet (200k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Claude 3 Haiku | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Claude 3 Haiku (200k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Claude 3 Haiku (48k) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Claude 3 Sonnet | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Claude 3 Haiku | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Claude Opus 5.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Fable 5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Claude Haiku 5.5 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -348,7 +341,7 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **147** |
+| Total Models | **140** |
 | Total Regions | **14** |
 | Providers | **19** |
 
@@ -358,7 +351,7 @@ Track AWS Bedrock model availability across regions.
 |----------|--------|---------|
 | AI21 Labs | 2 | 1 |
 | Amazon | 22 | 14 |
-| Anthropic | 25 | 14 |
+| Anthropic | 18 | 14 |
 | Cohere | 6 | 14 |
 | DeepSeek | 3 | 8 |
 | Google | 3 | 9 |
