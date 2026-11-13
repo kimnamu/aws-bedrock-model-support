@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T08:36:54Z",
+ "generated_at": "2026-11-13T23:36:56Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -3966,7 +3966,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -3974,7 +3974,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.1 70B Instruct",
    "no_sampling": false,
@@ -3994,7 +3994,7 @@
     ]
    },
    "released": "2024-07-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4055,7 +4055,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4063,7 +4063,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.1 8B Instruct",
    "no_sampling": false,
@@ -4083,7 +4083,7 @@
     ]
    },
    "released": "2024-07-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
