@@ -1,6 +1,6 @@
 {
 "baseline": "2026-01-26T13:20Z",
-"last_commit": "2c097d345ab6235ec5c0bb872c95d9572d973790",
+"last_commit": "ecb02e1ec25b97c9d25179f5c7ed981a56e28f12",
 "events": [
 {
 "t": "2026-02-03T03:10Z",
@@ -3188,6 +3188,99 @@
 "us-west-2"
 ],
 "removed": []
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-south-1",
+"eu-west-2"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-haiku-20240307-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1",
+"sa-east-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-haiku-20240307-v1:0:200k",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-northeast-2"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-haiku-20240307-v1:0:48k",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-south-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-sonnet-20240229-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-south-1",
+"ap-southeast-1",
+"eu-west-2",
+"sa-east-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-sonnet-20240229-v1:0:200k",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-southeast-1"
+]
+},
+{
+"t": "2026-11-13T08:10Z",
+"model": "anthropic.claude-3-sonnet-20240229-v1:0:28k",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ap-south-1",
+"ap-southeast-1"
+]
 }
 ]
 }

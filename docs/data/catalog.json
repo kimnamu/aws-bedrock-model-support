@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:36:54Z",
+ "generated_at": "2026-11-13T08:36:54Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -1401,150 +1401,6 @@
    "system_role": null,
    "videos": []
   },
-  "anthropic.claude-3-5-sonnet-20240620-v1:0": {
-   "batch": true,
-   "converse": true,
-   "count_tokens": true,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3.5 Sonnet",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "profiles": [
-    "apac.anthropic.claude-3-5-sonnet-20240620-v1:0"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-northeast-2": [
-     "ON_DEMAND"
-    ],
-    "ap-south-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "ap-southeast-1": [
-     "ON_DEMAND"
-    ]
-   },
-   "released": "2024-06-20T08:00:00Z",
-   "status": "LEGACY",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-5-sonnet-20241022-v2:0": {
-   "batch": true,
-   "converse": true,
-   "count_tokens": true,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3.5 Sonnet v2",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "profiles": [
-    "apac.anthropic.claude-3-5-sonnet-20241022-v2:0"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-northeast-2": [
-     "INFERENCE_PROFILE"
-    ],
-    "ap-south-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "ap-southeast-1": [
-     "INFERENCE_PROFILE"
-    ]
-   },
-   "released": "2024-10-22T08:00:00Z",
-   "status": "LEGACY",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-7-sonnet-20250219-v1:0": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": true,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3.7 Sonnet",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "profiles": [
-    "apac.anthropic.claude-3-7-sonnet-20250219-v1:0"
-   ],
-   "prompt_caching": true,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-south-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "eu-west-2": [
-     "ON_DEMAND"
-    ]
-   },
-   "released": "2025-02-19T08:00:00Z",
-   "status": "LEGACY",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
   "anthropic.claude-3-haiku-20240307-v1:0": {
    "batch": true,
    "converse": true,
@@ -1580,102 +1436,12 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "ap-northeast-2": [
-     "ON_DEMAND"
-    ],
-    "ap-south-1": [
-     "ON_DEMAND"
-    ],
-    "ap-southeast-1": [
-     "ON_DEMAND"
-    ],
     "ca-central-1": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ]
    },
    "released": "2024-03-13T08:00:00Z",
    "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-haiku-20240307-v1:0:200k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3 Haiku",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-northeast-2": []
-   },
-   "released": "2024-03-13T08:00:00Z",
-   "status": "LEGACY",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-haiku-20240307-v1:0:48k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3 Haiku",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-south-1": [
-     "PROVISIONED"
-    ]
-   },
-   "released": "2024-03-13T08:00:00Z",
-   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -1715,103 +1481,12 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "ap-south-1": [
-     "ON_DEMAND"
-    ],
-    "ap-southeast-1": [
-     "INFERENCE_PROFILE"
-    ],
     "ca-central-1": [
-     "ON_DEMAND"
-    ],
-    "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ]
    },
    "released": "2024-03-04T08:00:00Z",
    "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-sonnet-20240229-v1:0:200k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3 Sonnet",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-southeast-1": []
-   },
-   "released": "2024-03-04T08:00:00Z",
-   "status": "LEGACY",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "anthropic.claude-3-sonnet-20240229-v1:0:28k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": "2026-11-13T08:00:00Z",
-   "extended": "2026-10-10T08:00:00Z",
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE"
-   ],
-   "legacy": "2026-10-10T08:00:00Z",
-   "max_tokens": null,
-   "name": "Claude 3 Sonnet",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": false,
-   "provider": "Anthropic",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "ap-south-1": [
-     "PROVISIONED"
-    ],
-    "ap-southeast-1": []
-   },
-   "released": "2024-03-04T08:00:00Z",
-   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
