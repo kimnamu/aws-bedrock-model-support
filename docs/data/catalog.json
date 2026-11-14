@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T23:36:56Z",
+ "generated_at": "2026-11-14T00:37:03Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -1408,8 +1408,8 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
-   "extended": null,
+   "eol": "2026-11-27T08:00:00Z",
+   "extended": "2026-10-15T08:00:00Z",
    "family": null,
    "guardrails": true,
    "images": [],
@@ -1417,7 +1417,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-10-15T08:00:00Z",
    "max_tokens": null,
    "name": "Claude 3 Haiku",
    "no_sampling": false,
@@ -1441,7 +1441,7 @@
     ]
    },
    "released": "2024-03-13T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -1453,8 +1453,8 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
-   "extended": null,
+   "eol": "2026-11-27T08:00:00Z",
+   "extended": "2026-10-15T08:00:00Z",
    "family": null,
    "guardrails": true,
    "images": [],
@@ -1462,7 +1462,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-10-15T08:00:00Z",
    "max_tokens": null,
    "name": "Claude 3 Sonnet",
    "no_sampling": false,
@@ -1486,7 +1486,7 @@
     ]
    },
    "released": "2024-03-04T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
