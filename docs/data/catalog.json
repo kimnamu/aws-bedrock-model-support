@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T01:36:52Z",
+ "generated_at": "2026-11-14T03:37:01Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -4147,7 +4147,7 @@
    ],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4155,7 +4155,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.3 70B Instruct",
    "no_sampling": false,
@@ -4172,7 +4172,7 @@
     "us-west-2": []
    },
    "released": "2024-12-19T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
