@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T00:37:03Z",
+ "generated_at": "2026-11-14T01:36:52Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -3503,7 +3503,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -3511,7 +3511,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "DeepSeek-R1",
    "no_sampling": false,
@@ -3539,7 +3539,7 @@
     ]
    },
    "released": "2025-03-10T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -3917,7 +3917,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -3925,7 +3925,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.1 70B Instruct",
    "no_sampling": false,
@@ -3954,7 +3954,7 @@
     ]
    },
    "released": "2024-07-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4006,7 +4006,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4014,7 +4014,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.1 8B Instruct",
    "no_sampling": false,
@@ -4043,7 +4043,7 @@
     ]
    },
    "released": "2024-07-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4095,7 +4095,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4103,7 +4103,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3.3 70B Instruct",
    "no_sampling": false,
@@ -4132,7 +4132,7 @@
     ]
    },
    "released": "2024-12-19T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4184,7 +4184,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4192,7 +4192,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3 70B Instruct",
    "no_sampling": false,
@@ -4223,7 +4223,7 @@
     ]
    },
    "released": "2024-04-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4235,7 +4235,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4243,7 +4243,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 3 8B Instruct",
    "no_sampling": false,
@@ -4274,7 +4274,7 @@
     ]
    },
    "released": "2024-04-23T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4286,7 +4286,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4295,7 +4295,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Maverick 17B Instruct",
    "no_sampling": false,
@@ -4326,7 +4326,7 @@
     ]
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4338,7 +4338,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4347,7 +4347,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Maverick 17B Instruct",
    "no_sampling": false,
@@ -4364,7 +4364,7 @@
     "us-west-1": []
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4376,7 +4376,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4385,7 +4385,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Maverick 17B Instruct",
    "no_sampling": false,
@@ -4402,7 +4402,7 @@
     "us-west-1": []
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4414,7 +4414,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4423,7 +4423,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Scout 17B Instruct",
    "no_sampling": false,
@@ -4454,7 +4454,7 @@
     ]
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4466,7 +4466,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4475,7 +4475,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Scout 17B Instruct",
    "no_sampling": false,
@@ -4492,7 +4492,7 @@
     "us-west-1": []
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -4504,7 +4504,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -4513,7 +4513,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Llama 4 Scout 17B Instruct",
    "no_sampling": false,
@@ -4530,7 +4530,7 @@
     "us-west-1": []
    },
    "released": "2025-04-28T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -5088,7 +5088,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -5096,7 +5096,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Mistral 7B Instruct",
    "no_sampling": false,
@@ -5139,7 +5139,7 @@
     ]
    },
    "released": "2024-03-01T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
@@ -5355,7 +5355,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-03-30T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -5363,7 +5363,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-09-30T08:00:00Z",
    "max_tokens": null,
    "name": "Mixtral 8x7B Instruct",
    "no_sampling": false,
@@ -5406,7 +5406,7 @@
     ]
    },
    "released": "2024-03-01T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": true,
    "system_role": null,
    "videos": []
