@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T03:37:01Z",
+ "generated_at": "2026-11-15T19:37:36Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -1105,9 +1105,6 @@
     "eu-west-3": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -1172,9 +1169,6 @@
      "PROVISIONED"
     ],
     "eu-west-3": [
-     "PROVISIONED"
-    ],
-    "sa-east-1": [
      "PROVISIONED"
     ],
     "us-east-1": [
@@ -1342,9 +1336,6 @@
      "ON_DEMAND"
     ],
     "eu-west-3": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -1568,9 +1559,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -1671,9 +1659,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -1778,9 +1763,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -1879,9 +1861,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -1988,9 +1967,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -2146,9 +2122,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -2246,9 +2219,6 @@
      "ON_DEMAND"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -2350,9 +2320,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -2450,9 +2417,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -2553,9 +2517,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -2664,9 +2625,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -2764,9 +2722,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -2869,9 +2824,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -2972,9 +2924,6 @@
      "ON_DEMAND"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -3081,9 +3030,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -3159,9 +3105,6 @@
     "eu-west-3": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -3208,9 +3151,6 @@
      "PROVISIONED"
     ],
     "eu-west-2": [
-     "PROVISIONED"
-    ],
-    "sa-east-1": [
      "PROVISIONED"
     ],
     "us-east-1": [
@@ -3282,9 +3222,6 @@
     "eu-west-3": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -3331,9 +3268,6 @@
      "PROVISIONED"
     ],
     "eu-west-2": [
-     "PROVISIONED"
-    ],
-    "sa-east-1": [
      "PROVISIONED"
     ],
     "us-east-1": [
@@ -3420,9 +3354,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -3645,9 +3576,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -3712,9 +3640,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -3783,9 +3708,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -3850,9 +3772,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -4579,9 +4498,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -4646,9 +4562,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -4717,9 +4630,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -4784,9 +4694,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -4855,9 +4762,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -4922,9 +4826,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -4993,9 +4894,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -5062,9 +4960,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -5128,9 +5023,6 @@
     "eu-west-3": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -5189,9 +5081,6 @@
      "ON_DEMAND"
     ],
     "eu-west-3": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -5288,9 +5177,6 @@
      "ON_DEMAND"
     ],
     "ap-southeast-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -5393,9 +5279,6 @@
      "ON_DEMAND"
     ],
     "eu-west-3": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -5518,9 +5401,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -5582,9 +5462,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -5637,9 +5514,6 @@
      "ON_DEMAND"
     ],
     "ap-southeast-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -5706,9 +5580,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -5811,9 +5682,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -5914,9 +5782,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -5986,9 +5851,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -6049,9 +5911,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -6110,9 +5969,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -6179,9 +6035,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -6279,9 +6132,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -6382,9 +6232,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -6489,9 +6336,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -6591,9 +6435,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -6698,9 +6539,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -6799,9 +6637,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -6905,9 +6740,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -7009,9 +6841,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -7110,9 +6939,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -7216,9 +7042,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -7288,9 +7111,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -7357,9 +7177,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -7420,9 +7237,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -7481,9 +7295,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -7612,9 +7423,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -7679,9 +7487,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -7846,9 +7651,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -7913,9 +7715,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -8868,9 +8667,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE",
      "ON_DEMAND"
@@ -8959,9 +8755,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -9216,9 +9009,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -9318,9 +9108,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-1": [
      "INFERENCE_PROFILE"
     ],
@@ -9382,9 +9169,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -9453,9 +9237,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "sa-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-1": [
      "ON_DEMAND"
     ],
@@ -9514,9 +9295,6 @@
      "ON_DEMAND"
     ],
     "eu-west-2": [
-     "ON_DEMAND"
-    ],
-    "sa-east-1": [
      "ON_DEMAND"
     ],
     "us-east-1": [
@@ -9609,9 +9387,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-1": [
@@ -10600,7 +10375,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10631,7 +10405,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10645,7 +10418,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10676,7 +10448,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10690,7 +10461,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10721,7 +10491,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10735,7 +10504,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10766,7 +10534,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10780,7 +10547,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10811,7 +10577,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10825,7 +10590,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10856,7 +10620,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10870,7 +10633,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10901,7 +10663,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10915,7 +10676,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10946,7 +10706,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -10960,7 +10719,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -10991,7 +10749,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11005,7 +10762,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11036,7 +10792,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11050,7 +10805,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11081,7 +10835,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11114,7 +10867,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11145,7 +10897,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11159,7 +10910,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11190,7 +10940,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11204,7 +10953,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11235,7 +10983,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11249,7 +10996,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11280,7 +11026,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11294,7 +11039,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11325,7 +11069,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11339,7 +11082,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11370,7 +11112,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11384,7 +11125,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11415,7 +11155,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11429,7 +11168,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11460,7 +11198,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11474,7 +11211,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11505,7 +11241,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11519,7 +11254,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11550,7 +11284,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11564,7 +11297,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11595,7 +11327,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11609,7 +11340,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11640,7 +11370,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11654,7 +11383,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11685,7 +11413,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11699,7 +11426,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11730,7 +11456,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11744,7 +11469,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11775,7 +11499,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11789,7 +11512,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11820,7 +11542,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11834,7 +11555,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11865,7 +11585,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11879,7 +11598,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11910,7 +11628,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11924,7 +11641,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -11955,7 +11671,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -11969,7 +11684,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -12000,7 +11714,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -12014,7 +11727,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -12045,7 +11757,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -12059,7 +11770,6 @@
     "us-west-1",
     "us-west-2",
     "ca-central-1",
-    "sa-east-1",
     "eu-central-1",
     "eu-west-1",
     "eu-west-2",
@@ -12090,7 +11800,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "sa-east-1",
     "us-east-1",
     "us-east-2",
     "us-west-1",
@@ -13640,7 +13349,6 @@
   "us-west-1",
   "us-west-2",
   "ca-central-1",
-  "sa-east-1",
   "eu-central-1",
   "eu-west-1",
   "eu-west-2",
@@ -13666,6 +13374,7 @@
   "eu-south-2": 403,
   "il-central-1": 403,
   "me-central-1": "timed out",
-  "mx-central-1": 403
+  "mx-central-1": 403,
+  "sa-east-1": "The read operation timed out"
  }
 }
