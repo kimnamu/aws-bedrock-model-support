@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T20:36:51Z",
+ "generated_at": "2026-11-16T19:36:51Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -3031,6 +3031,7 @@
    "profiles": [
     "us.anthropic.claude-sonnet-5-5",
     "global.anthropic.claude-sonnet-5-5",
+    "ca.anthropic.claude-sonnet-5-5",
     "eu.anthropic.claude-sonnet-5-5",
     "au.anthropic.claude-sonnet-5-5"
    ],
@@ -10023,6 +10024,20 @@
     "anthropic.claude-haiku-5-5"
    ],
    "name": "CA Anthropic Claude Haiku 5.5",
+   "scope": "ca",
+   "to": [
+    "ca-central-1",
+    "ca-west-1"
+   ]
+  },
+  "ca.anthropic.claude-sonnet-5-5": {
+   "from": [
+    "ca-central-1"
+   ],
+   "models": [
+    "anthropic.claude-sonnet-5-5"
+   ],
+   "name": "CA Anthropic Claude Sonnet 5.5",
    "scope": "ca",
    "to": [
     "ca-central-1",
