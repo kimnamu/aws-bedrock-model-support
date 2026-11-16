@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-15T21:39Z",
+"measured_at": "2026-11-16T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1104,7 +1104,41 @@ true,
 "via": "mistral.ministral-3-3b-instruct"
 },
 "mistral.ministral-3-8b-instruct": {
-"baseline": "network The read operation timed out",
+"baseline": "",
+"results": {
+"cache_point": [
+false,
+"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
+],
+"prefill": [
+false,
+"400 The model returned the following errors: ErrorEvent { error: APIError { type: \"BadRequestError\", code: Some(400), message: \"Cannot set `add_generation_prompt` to True when the last message is from"
+],
+"stop_sequences": [
+false,
+"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
+],
+"system": [
+true,
+""
+],
+"temperature": [
+true,
+""
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+true,
+""
+],
+"top_p": [
+true,
+""
+]
+},
 "via": "mistral.ministral-3-8b-instruct"
 },
 "mistral.mistral-large-2402-v1:0": {
@@ -1233,8 +1267,8 @@ false,
 "400 The model that you are using requires the last turn in the conversation to be a user message. Add a user message to the conversation and try again."
 ],
 "stop_sequences": [
-true,
-""
+false,
+"network The read operation timed out"
 ],
 "system": [
 true,
