@@ -1,6 +1,6 @@
 {
 "baseline": "2026-01-26T13:20Z",
-"last_commit": "ecb02e1ec25b97c9d25179f5c7ed981a56e28f12",
+"last_commit": "68bb31bb900e398e1ce1fc0a2bd3ddc12498082b",
 "events": [
 {
 "t": "2026-02-03T03:10Z",
@@ -3281,6 +3281,50 @@
 "ap-south-1",
 "ap-southeast-1"
 ]
+},
+{
+"t": "2026-11-17T19:10Z",
+"model": "openai.gpt-6.2-astra",
+"provider": "OpenAI",
+"added": [
+"ap-northeast-1",
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1",
+"ap-southeast-2",
+"ca-central-1",
+"eu-central-1",
+"eu-west-1",
+"eu-west-2",
+"eu-west-3",
+"sa-east-1",
+"us-east-1",
+"us-east-2",
+"us-west-2"
+],
+"removed": []
+},
+{
+"t": "2026-11-17T19:10Z",
+"model": "openai.gpt-6.2-sol",
+"provider": "OpenAI",
+"added": [
+"ap-northeast-1",
+"ap-northeast-2",
+"ap-south-1",
+"ap-southeast-1",
+"ap-southeast-2",
+"ca-central-1",
+"eu-central-1",
+"eu-west-1",
+"eu-west-2",
+"eu-west-3",
+"sa-east-1",
+"us-east-1",
+"us-east-2",
+"us-west-2"
+],
+"removed": []
 }
 ]
 }

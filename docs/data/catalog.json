@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:36:51Z",
+ "generated_at": "2026-11-17T19:36:50Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -7239,6 +7239,212 @@
    "system_role": true,
    "videos": []
   },
+  "openai.gpt-6.2-astra": {
+   "batch": false,
+   "converse": true,
+   "count_tokens": false,
+   "customization": [],
+   "default_max_tokens": null,
+   "documents": [],
+   "eol": null,
+   "extended": null,
+   "family": "GPT-6",
+   "guardrails": true,
+   "images": [
+    "jpeg",
+    "png",
+    "gif",
+    "webp"
+   ],
+   "input": [
+    "TEXT",
+    "IMAGE"
+   ],
+   "legacy": null,
+   "max_tokens": 128000,
+   "name": "GPT-6.2 Astra",
+   "no_sampling": true,
+   "openai_chat": true,
+   "openai_responses": true,
+   "output": [
+    "TEXT"
+   ],
+   "profiles": [
+    "us.openai.gpt-6.2-astra",
+    "global.openai.gpt-6.2-astra"
+   ],
+   "prompt_caching": true,
+   "provider": "OpenAI",
+   "reasoning_field": "reasoning_config",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "regions": {
+    "ap-northeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-south-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ca-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-north-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "sa-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-2": [
+     "INFERENCE_PROFILE"
+    ]
+   },
+   "released": "2026-11-16T10:00:00Z",
+   "status": "ACTIVE",
+   "streaming": true,
+   "system_role": true,
+   "videos": []
+  },
+  "openai.gpt-6.2-sol": {
+   "batch": false,
+   "converse": true,
+   "count_tokens": false,
+   "customization": [],
+   "default_max_tokens": null,
+   "documents": [],
+   "eol": null,
+   "extended": null,
+   "family": "GPT-6",
+   "guardrails": true,
+   "images": [
+    "jpeg",
+    "png",
+    "gif",
+    "webp"
+   ],
+   "input": [
+    "TEXT",
+    "IMAGE"
+   ],
+   "legacy": null,
+   "max_tokens": 128000,
+   "name": "GPT-6.2 Sol",
+   "no_sampling": true,
+   "openai_chat": true,
+   "openai_responses": true,
+   "output": [
+    "TEXT"
+   ],
+   "profiles": [
+    "us.openai.gpt-6.2-sol",
+    "global.openai.gpt-6.2-sol"
+   ],
+   "prompt_caching": true,
+   "provider": "OpenAI",
+   "reasoning_field": "reasoning_config",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "regions": {
+    "ap-northeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-northeast-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-south-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "ap-southeast-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "ca-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-central-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-north-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "eu-west-3": [
+     "INFERENCE_PROFILE"
+    ],
+    "sa-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-east-2": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-1": [
+     "INFERENCE_PROFILE"
+    ],
+    "us-west-2": [
+     "INFERENCE_PROFILE"
+    ]
+   },
+   "released": "2026-11-16T10:00:00Z",
+   "status": "ACTIVE",
+   "streaming": true,
+   "system_role": true,
+   "videos": []
+  },
   "openai.gpt-oss-120b-1:0": {
    "batch": true,
    "converse": true,
@@ -11887,6 +12093,96 @@
     "us-west-2"
    ]
   },
+  "global.openai.gpt-6.2-astra": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1",
+    "sa-east-1",
+    "eu-central-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "eu-north-1",
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2"
+   ],
+   "models": [
+    "openai.gpt-6.2-astra"
+   ],
+   "name": "Global OpenAI GPT-6.2 Astra",
+   "scope": "global",
+   "to": [
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2",
+    "ca-central-1",
+    "eu-central-1",
+    "eu-north-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "sa-east-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
+  "global.openai.gpt-6.2-sol": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1",
+    "sa-east-1",
+    "eu-central-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "eu-north-1",
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2"
+   ],
+   "models": [
+    "openai.gpt-6.2-sol"
+   ],
+   "name": "Global OpenAI GPT-6.2 Sol",
+   "scope": "global",
+   "to": [
+    "ap-northeast-1",
+    "ap-northeast-2",
+    "ap-northeast-3",
+    "ap-south-1",
+    "ap-southeast-1",
+    "ap-southeast-2",
+    "ca-central-1",
+    "eu-central-1",
+    "eu-north-1",
+    "eu-west-1",
+    "eu-west-2",
+    "eu-west-3",
+    "sa-east-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
   "global.twelvelabs.pegasus-1-2-v1:0": {
    "from": [
     "us-east-1",
@@ -13250,6 +13546,48 @@
     "openai.gpt-6.1-terra"
    ],
    "name": "US OpenAI GPT-6.1 Terra",
+   "scope": "us",
+   "to": [
+    "ca-central-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
+  "us.openai.gpt-6.2-astra": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1"
+   ],
+   "models": [
+    "openai.gpt-6.2-astra"
+   ],
+   "name": "US OpenAI GPT-6.2 Astra",
+   "scope": "us",
+   "to": [
+    "ca-central-1",
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2"
+   ]
+  },
+  "us.openai.gpt-6.2-sol": {
+   "from": [
+    "us-east-1",
+    "us-east-2",
+    "us-west-1",
+    "us-west-2",
+    "ca-central-1"
+   ],
+   "models": [
+    "openai.gpt-6.2-sol"
+   ],
+   "name": "US OpenAI GPT-6.2 Sol",
    "scope": "us",
    "to": [
     "ca-central-1",
