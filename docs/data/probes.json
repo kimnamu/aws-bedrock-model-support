@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-16T21:39Z",
+"measured_at": "2026-11-17T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1267,8 +1267,8 @@ false,
 "400 The model that you are using requires the last turn in the conversation to be a user message. Add a user message to the conversation and try again."
 ],
 "stop_sequences": [
-false,
-"network The read operation timed out"
+true,
+""
 ],
 "system": [
 true,
@@ -1984,6 +1984,82 @@ false,
 ]
 },
 "via": "us.openai.gpt-6.1-terra"
+},
+"openai.gpt-6.2-astra": {
+"baseline": "",
+"results": {
+"cache_point": [
+true,
+""
+],
+"prefill": [
+true,
+""
+],
+"stop_sequences": [
+false,
+"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
+],
+"system": [
+true,
+""
+],
+"temperature": [
+false,
+"400 This model doesn't support the temperature field. Remove temperature and try again."
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+true,
+""
+],
+"top_p": [
+false,
+"400 This model doesn't support the topP field. Remove topP and try again."
+]
+},
+"via": "us.openai.gpt-6.2-astra"
+},
+"openai.gpt-6.2-sol": {
+"baseline": "",
+"results": {
+"cache_point": [
+true,
+""
+],
+"prefill": [
+true,
+""
+],
+"stop_sequences": [
+false,
+"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
+],
+"system": [
+true,
+""
+],
+"temperature": [
+false,
+"400 This model doesn't support the temperature field. Remove temperature and try again."
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+true,
+""
+],
+"top_p": [
+false,
+"400 This model doesn't support the topP field. Remove topP and try again."
+]
+},
+"via": "us.openai.gpt-6.2-sol"
 },
 "openai.gpt-oss-120b-1:0": {
 "baseline": "",
