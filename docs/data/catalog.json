@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:36:50Z",
+ "generated_at": "2026-11-18T22:37:15Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -14017,7 +14017,7 @@
   "eu-central-2": 403,
   "eu-south-1": 403,
   "eu-south-2": 403,
-  "il-central-1": 403,
+  "il-central-1": "_ssl.c:1064: The handshake operation tim",
   "me-central-1": "timed out",
   "mx-central-1": 403
  }
