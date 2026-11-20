@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T23:37:11Z",
+ "generated_at": "2026-11-20T20:36:56Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -8148,7 +8148,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-05-09T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -8157,7 +8157,7 @@
     "TEXT",
     "IMAGE"
    ],
-   "legacy": null,
+   "legacy": "2026-11-09T08:00:00Z",
    "max_tokens": null,
    "name": "Stable Diffusion 3.5 Large",
    "no_sampling": false,
@@ -8176,7 +8176,7 @@
     ]
    },
    "released": "2024-12-12T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": false,
    "system_role": null,
    "videos": []
@@ -8433,7 +8433,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-05-09T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -8441,7 +8441,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-11-09T08:00:00Z",
    "max_tokens": null,
    "name": "Stable Image Core 1.0",
    "no_sampling": false,
@@ -8460,7 +8460,7 @@
     ]
    },
    "released": "2024-12-12T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": false,
    "system_role": null,
    "videos": []
@@ -8766,7 +8766,7 @@
    "customization": [],
    "default_max_tokens": null,
    "documents": [],
-   "eol": null,
+   "eol": "2027-05-09T08:00:00Z",
    "extended": null,
    "family": null,
    "guardrails": true,
@@ -8774,7 +8774,7 @@
    "input": [
     "TEXT"
    ],
-   "legacy": null,
+   "legacy": "2026-11-09T08:00:00Z",
    "max_tokens": null,
    "name": "Stable Image Ultra 1.0",
    "no_sampling": false,
@@ -8793,7 +8793,7 @@
     ]
    },
    "released": "2024-02-22T08:00:00Z",
-   "status": "ACTIVE",
+   "status": "LEGACY",
    "streaming": false,
    "system_role": null,
    "videos": []
