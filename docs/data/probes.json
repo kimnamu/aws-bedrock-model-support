@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-22T21:39Z",
+"measured_at": "2026-11-23T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -838,7 +838,41 @@ true,
 "via": "google.gemma-3-4b-it"
 },
 "minimax.minimax-m2": {
-"baseline": "network The read operation timed out",
+"baseline": "",
+"results": {
+"cache_point": [
+false,
+"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
+],
+"prefill": [
+true,
+""
+],
+"stop_sequences": [
+false,
+"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
+],
+"system": [
+true,
+""
+],
+"temperature": [
+true,
+""
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+true,
+""
+],
+"top_p": [
+true,
+""
+]
+},
 "via": "minimax.minimax-m2"
 },
 "minimax.minimax-m2.1": {
@@ -887,8 +921,8 @@ false,
 "403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
 ],
 "prefill": [
-false,
-"network The read operation timed out"
+true,
+""
 ],
 "stop_sequences": [
 false,
@@ -1803,8 +1837,8 @@ false,
 "baseline": "",
 "results": {
 "cache_point": [
-false,
-"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
+true,
+""
 ],
 "prefill": [
 true,
@@ -1841,8 +1875,8 @@ false,
 "baseline": "",
 "results": {
 "cache_point": [
-false,
-"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
+true,
+""
 ],
 "prefill": [
 true,
