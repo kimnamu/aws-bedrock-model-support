@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:36:56Z",
+ "generated_at": "2026-11-23T04:36:53Z",
  "models": {
   "ai21.jamba-1-5-large-v1:0": {
    "batch": false,
@@ -6858,7 +6858,7 @@
     "global.openai.gpt-6-luna",
     "us.openai.gpt-6-luna"
    ],
-   "prompt_caching": false,
+   "prompt_caching": true,
    "provider": "OpenAI",
    "reasoning_field": "reasoning_config",
    "reasoning_levels": [
@@ -6962,7 +6962,7 @@
     "global.openai.gpt-6-sol",
     "us.openai.gpt-6-sol"
    ],
-   "prompt_caching": false,
+   "prompt_caching": true,
    "provider": "OpenAI",
    "reasoning_field": "reasoning_config",
    "reasoning_levels": [
