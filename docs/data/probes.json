@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-23T21:39Z",
+"measured_at": "2026-11-24T21:40Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -853,12 +853,12 @@ false,
 "400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
 ],
 "system": [
-true,
-""
+false,
+"network The read operation timed out"
 ],
 "temperature": [
-true,
-""
+false,
+"network The read operation timed out"
 ],
 "tool_auto": [
 true,
@@ -869,8 +869,8 @@ true,
 ""
 ],
 "top_p": [
-true,
-""
+false,
+"network The read operation timed out"
 ]
 },
 "via": "minimax.minimax-m2"
