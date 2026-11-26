@@ -8,19 +8,18 @@ Track AWS Bedrock model availability across regions.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--26-blue)
  ![Regions](https://img.shields.io/badge/Regions-14-green)
- ![Providers](https://img.shields.io/badge/Providers-19-orange)
+ ![Providers](https://img.shields.io/badge/Providers-18-orange)
 
 ### Last Updated
 
 | UTC | PST (US West) | KST (Korea) |
 |:---:|:---:|:---:|
-| 2026-11-26 07:10 | 2026-11-25 23:10 | 2026-11-26 16:10 |
+| 2026-11-26 08:10 | 2026-11-26 00:10 | 2026-11-26 17:10 |
 
 ## Table of Contents
 
 | Provider | Models | Regions |
 |:---------|-------:|--------:|
-| [AI21 Labs](#ai21-labs) | 2 | 1 |
 | [Amazon](#amazon) | 22 | 14 |
 | [Anthropic](#anthropic) | 18 | 14 |
 | [Cohere](#cohere) | 6 | 14 |
@@ -41,16 +40,6 @@ Track AWS Bedrock model availability across regions.
 | [xAI](#xai) | 2 | 14 |
 
 ---
-
-<details>
-<summary><h3 id="ai21-labs">AI21 Labs (2 models, 1 regions)</h3></summary>
-
-| Model | us-east-1 |
-|:------|:---:|
-| Jamba 1.5 Large | ✅ |
-| Jamba 1.5 Mini | ✅ |
-
-</details>
 
 <details>
 <summary><h3 id="amazon">Amazon (22 models, 14 regions)</h3></summary>
@@ -343,15 +332,14 @@ Track AWS Bedrock model availability across regions.
 
 | Metric | Value |
 |--------|-------|
-| Total Models | **142** |
+| Total Models | **140** |
 | Total Regions | **14** |
-| Providers | **19** |
+| Providers | **18** |
 
 ### Provider Breakdown
 
 | Provider | Models | Regions |
 |----------|--------|---------|
-| AI21 Labs | 2 | 1 |
 | Amazon | 22 | 14 |
 | Anthropic | 18 | 14 |
 | Cohere | 6 | 14 |
