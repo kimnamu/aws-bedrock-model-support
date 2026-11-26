@@ -1,6 +1,6 @@
 {
 "baseline": "2026-01-26T13:20Z",
-"last_commit": "68bb31bb900e398e1ce1fc0a2bd3ddc12498082b",
+"last_commit": "b0bf481f74625c769330d820e291bf141c99736e",
 "events": [
 {
 "t": "2026-02-03T03:10Z",
@@ -3325,6 +3325,24 @@
 "us-west-2"
 ],
 "removed": []
+},
+{
+"t": "2026-11-26T08:10Z",
+"model": "ai21.jamba-1-5-large-v1:0",
+"provider": "AI21 Labs",
+"added": [],
+"removed": [
+"us-east-1"
+]
+},
+{
+"t": "2026-11-26T08:10Z",
+"model": "ai21.jamba-1-5-mini-v1:0",
+"provider": "AI21 Labs",
+"added": [],
+"removed": [
+"us-east-1"
+]
 }
 ]
 }
