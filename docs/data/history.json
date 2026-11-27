@@ -1,6 +1,6 @@
 {
 "baseline": "2026-01-26T13:20Z",
-"last_commit": "b0bf481f74625c769330d820e291bf141c99736e",
+"last_commit": "98e4401cf8c86095095ad831b8110a5d7bde366a",
 "events": [
 {
 "t": "2026-02-03T03:10Z",
@@ -3342,6 +3342,24 @@
 "added": [],
 "removed": [
 "us-east-1"
+]
+},
+{
+"t": "2026-11-27T08:10Z",
+"model": "anthropic.claude-3-haiku-20240307-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ca-central-1"
+]
+},
+{
+"t": "2026-11-27T08:10Z",
+"model": "anthropic.claude-3-sonnet-20240229-v1:0",
+"provider": "Anthropic",
+"added": [],
+"removed": [
+"ca-central-1"
 ]
 }
 ]
