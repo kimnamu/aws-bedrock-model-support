@@ -1,5 +1,5 @@
 {
-"measured_at": "2026-11-26T21:40Z",
+"measured_at": "2026-11-27T21:39Z",
 "models": {
 "amazon.nova-2-lite-v1:0": {
 "baseline": "",
@@ -1454,7 +1454,41 @@ true,
 "via": "us.moonshotai.kimi-k3.1"
 },
 "nvidia.nemotron-nano-12b-v2": {
-"baseline": "network The read operation timed out",
+"baseline": "",
+"results": {
+"cache_point": [
+false,
+"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
+],
+"prefill": [
+true,
+""
+],
+"stop_sequences": [
+false,
+"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
+],
+"system": [
+true,
+""
+],
+"temperature": [
+true,
+""
+],
+"tool_auto": [
+true,
+""
+],
+"tool_forced": [
+true,
+""
+],
+"top_p": [
+true,
+""
+]
+},
 "via": "nvidia.nemotron-nano-12b-v2"
 },
 "nvidia.nemotron-nano-3-30b": {
@@ -2446,41 +2480,7 @@ false,
 "via": "us.xai.grok-4.6"
 },
 "xai.grok-4.7": {
-"baseline": "",
-"results": {
-"cache_point": [
-false,
-"403 You invoked an unsupported model or your request did not allow prompt caching. See the documentation for more information."
-],
-"prefill": [
-true,
-""
-],
-"stop_sequences": [
-false,
-"400 This model doesn't support the stopSequences field. Remove stopSequences and try again."
-],
-"system": [
-true,
-""
-],
-"temperature": [
-false,
-"400 This model doesn't support the temperature field. Remove temperature and try again."
-],
-"tool_auto": [
-true,
-""
-],
-"tool_forced": [
-true,
-""
-],
-"top_p": [
-false,
-"400 This model doesn't support the topP field. Remove topP and try again."
-]
-},
+"baseline": "network The read operation timed out",
 "via": "us.xai.grok-4.7"
 },
 "zai.glm-4.7": {
