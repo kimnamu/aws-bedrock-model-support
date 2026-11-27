@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T08:36:50Z",
+ "generated_at": "2026-11-27T20:37:09Z",
  "models": {
   "amazon.nova-2-5-sonic": {
    "batch": false,
@@ -38,14 +38,11 @@
     "eu-north-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
    },
-   "released": "2026-09-11T00:00:00Z",
+   "released": "2026-09-30T00:00:00Z",
    "status": "ACTIVE",
    "streaming": true,
    "system_role": null,
@@ -129,9 +126,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -157,109 +151,6 @@
     "wmv",
     "three_gp"
    ]
-  },
-  "amazon.nova-2-lite-v1:0:256k": {
-   "batch": true,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [
-    "FINE_TUNING"
-   ],
-   "default_max_tokens": null,
-   "documents": [
-    "pdf",
-    "docx"
-   ],
-   "eol": null,
-   "extended": null,
-   "family": "Nova",
-   "guardrails": true,
-   "images": [
-    "jpeg",
-    "png",
-    "gif",
-    "webp"
-   ],
-   "input": [
-    "TEXT",
-    "IMAGE",
-    "VIDEO"
-   ],
-   "legacy": null,
-   "max_tokens": 65535,
-   "name": "Nova 2 Lite",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": true,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "PROVISIONED"
-    ]
-   },
-   "released": "2025-12-02T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": true,
-   "videos": [
-    "mkv",
-    "mov",
-    "mp4",
-    "webm",
-    "flv",
-    "mpeg",
-    "mpg",
-    "wmv",
-    "three_gp"
-   ]
-  },
-  "amazon.nova-2-multimodal-embeddings-v1:0": {
-   "batch": true,
-   "converse": false,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": "Nova",
-   "guardrails": false,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE",
-    "AUDIO",
-    "VIDEO"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Amazon Nova Multimodal Embeddings",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "EMBEDDING"
-   ],
-   "prompt_caching": false,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "ON_DEMAND"
-    ]
-   },
-   "released": "2025-10-28T17:00:00Z",
-   "status": "ACTIVE",
-   "streaming": false,
-   "system_role": null,
-   "videos": []
   },
   "amazon.nova-2-sonic-v1:0": {
    "batch": false,
@@ -295,9 +186,6 @@
      "ON_DEMAND"
     ],
     "eu-north-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-west-2": [
@@ -342,7 +230,7 @@
     "eu.amazon.nova-lite-v1:0",
     "apac.amazon.nova-lite-v1:0"
    ],
-   "prompt_caching": true,
+   "prompt_caching": false,
    "provider": "Amazon",
    "reasoning_field": null,
    "reasoning_levels": [],
@@ -383,10 +271,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE",
      "ON_DEMAND"
@@ -397,91 +281,6 @@
     "us-west-2": [
      "INFERENCE_PROFILE",
      "ON_DEMAND"
-    ]
-   },
-   "released": "2024-12-03T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "amazon.nova-lite-v1:0:24k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE",
-    "VIDEO"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Nova Lite",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": true,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "PROVISIONED"
-    ]
-   },
-   "released": "2024-12-03T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "amazon.nova-lite-v1:0:300k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [
-    "FINE_TUNING",
-    "DISTILLATION"
-   ],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT",
-    "IMAGE",
-    "VIDEO"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Nova Lite",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": true,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "PROVISIONED"
     ]
    },
    "released": "2024-12-03T08:00:00Z",
@@ -519,7 +318,7 @@
     "eu.amazon.nova-micro-v1:0",
     "apac.amazon.nova-micro-v1:0"
    ],
-   "prompt_caching": true,
+   "prompt_caching": false,
    "provider": "Amazon",
    "reasoning_field": null,
    "reasoning_levels": [],
@@ -555,96 +354,11 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
     "us-west-2": [
      "INFERENCE_PROFILE"
-    ]
-   },
-   "released": "2024-12-03T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "amazon.nova-micro-v1:0:128k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [
-    "FINE_TUNING",
-    "DISTILLATION"
-   ],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Nova Micro",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": true,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "PROVISIONED"
-    ]
-   },
-   "released": "2024-12-03T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
-   "videos": []
-  },
-  "amazon.nova-micro-v1:0:24k": {
-   "batch": false,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Nova Micro",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": true,
-   "provider": "Amazon",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "PROVISIONED"
     ]
    },
    "released": "2024-12-03T08:00:00Z",
@@ -692,7 +406,7 @@
     "eu.amazon.nova-pro-v1:0",
     "apac.amazon.nova-pro-v1:0"
    ],
-   "prompt_caching": true,
+   "prompt_caching": false,
    "provider": "Amazon",
    "reasoning_field": null,
    "reasoning_levels": [],
@@ -728,10 +442,6 @@
     "eu-west-3": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -759,7 +469,7 @@
    ]
   },
   "amazon.nova-pro-v1:0:24k": {
-   "batch": true,
+   "batch": false,
    "converse": true,
    "count_tokens": false,
    "customization": [],
@@ -792,15 +502,12 @@
    "output": [
     "TEXT"
    ],
-   "prompt_caching": true,
+   "prompt_caching": false,
    "provider": "Amazon",
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
     "eu-west-2": [
-     "PROVISIONED"
-    ],
-    "us-east-1": [
      "PROVISIONED"
     ]
    },
@@ -821,7 +528,7 @@
    ]
   },
   "amazon.nova-pro-v1:0:300k": {
-   "batch": true,
+   "batch": false,
    "converse": true,
    "count_tokens": false,
    "customization": [
@@ -858,15 +565,12 @@
    "output": [
     "TEXT"
    ],
-   "prompt_caching": true,
+   "prompt_caching": false,
    "provider": "Amazon",
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
     "eu-west-2": [
-     "PROVISIONED"
-    ],
-    "us-east-1": [
      "PROVISIONED"
     ]
    },
@@ -963,9 +667,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -1028,9 +729,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-west-2": [
@@ -1099,9 +797,6 @@
     "sa-east-1": [
      "PROVISIONED"
     ],
-    "us-east-1": [
-     "PROVISIONED"
-    ],
     "us-west-2": [
      "PROVISIONED"
     ]
@@ -1147,9 +842,6 @@
     "eu-central-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -1191,9 +883,6 @@
    "regions": {
     "ap-northeast-1": [],
     "eu-central-1": [],
-    "us-east-1": [
-     "PROVISIONED"
-    ],
     "us-west-2": [
      "PROVISIONED"
     ]
@@ -1205,7 +894,7 @@
    "videos": []
   },
   "amazon.titan-embed-text-v2:0": {
-   "batch": true,
+   "batch": false,
    "converse": false,
    "count_tokens": false,
    "customization": [],
@@ -1269,9 +958,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -1314,8 +1000,7 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "ap-northeast-3": [],
-    "us-east-1": []
+    "ap-northeast-3": []
    },
    "released": "2024-04-30T08:00:00Z",
    "status": "ACTIVE",
@@ -1401,9 +1086,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -1508,9 +1190,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -1613,9 +1292,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -1665,8 +1341,8 @@
     "TEXT"
    ],
    "profiles": [
-    "global.anthropic.claude-haiku-4-5-20251001-v1:0",
     "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "global.anthropic.claude-haiku-4-5-20251001-v1:0",
     "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
     "jp.anthropic.claude-haiku-4-5-20251001-v1:0",
     "in.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -1714,9 +1390,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -1825,9 +1498,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -1884,9 +1554,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -1981,9 +1648,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2033,8 +1697,8 @@
     "TEXT"
    ],
    "profiles": [
-    "us.anthropic.claude-opus-4-6-v1",
     "global.anthropic.claude-opus-4-6-v1",
+    "us.anthropic.claude-opus-4-6-v1",
     "eu.anthropic.claude-opus-4-6-v1",
     "au.anthropic.claude-opus-4-6-v1"
    ],
@@ -2083,9 +1747,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2096,7 +1757,7 @@
      "INFERENCE_PROFILE"
     ]
    },
-   "released": "2026-02-05T18:00:00Z",
+   "released": "2026-02-04T18:00:00Z",
    "status": "ACTIVE",
    "streaming": true,
    "system_role": true,
@@ -2183,9 +1844,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -2287,9 +1945,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2388,9 +2043,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -2499,9 +2151,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2599,9 +2248,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -2704,9 +2350,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2807,9 +2450,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -2917,9 +2557,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -2995,9 +2632,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -3044,9 +2678,6 @@
      "PROVISIONED"
     ],
     "sa-east-1": [
-     "PROVISIONED"
-    ],
-    "us-east-1": [
      "PROVISIONED"
     ],
     "us-west-2": [
@@ -3118,9 +2749,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -3167,9 +2795,6 @@
      "PROVISIONED"
     ],
     "sa-east-1": [
-     "PROVISIONED"
-    ],
-    "us-east-1": [
      "PROVISIONED"
     ],
     "us-west-2": [
@@ -3258,10 +2883,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -3316,9 +2937,6 @@
     "eu-central-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -3361,9 +2979,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -3481,9 +3096,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -3548,9 +3160,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -3619,9 +3228,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -3688,9 +3294,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -3744,7 +3347,7 @@
    "videos": []
   },
   "meta.llama3-1-70b-instruct-v1:0": {
-   "batch": true,
+   "batch": false,
    "converse": true,
    "count_tokens": false,
    "customization": [],
@@ -3775,9 +3378,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -3833,7 +3433,7 @@
    "videos": []
   },
   "meta.llama3-1-8b-instruct-v1:0": {
-   "batch": true,
+   "batch": false,
    "converse": true,
    "count_tokens": false,
    "customization": [],
@@ -3864,9 +3464,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -3953,9 +3550,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE",
      "ON_DEMAND"
@@ -4048,9 +3642,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -4099,9 +3690,6 @@
     "eu-west-2": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -4145,9 +3733,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -4273,9 +3858,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -4415,9 +3997,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -4482,9 +4061,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -4553,9 +4129,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -4620,9 +4193,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -4691,9 +4261,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -4758,9 +4325,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -4829,9 +4393,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -4898,9 +4459,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -4964,9 +4522,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-west-2": [
      "ON_DEMAND"
     ]
@@ -5025,9 +4580,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-west-2": [
@@ -5126,9 +4678,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -5140,45 +4689,6 @@
    "status": "ACTIVE",
    "streaming": true,
    "system_role": true,
-   "videos": []
-  },
-  "mistral.mistral-small-2402-v1:0": {
-   "batch": true,
-   "converse": true,
-   "count_tokens": false,
-   "customization": [],
-   "default_max_tokens": null,
-   "documents": [],
-   "eol": null,
-   "extended": null,
-   "family": null,
-   "guardrails": true,
-   "images": [],
-   "input": [
-    "TEXT"
-   ],
-   "legacy": null,
-   "max_tokens": null,
-   "name": "Mistral Small (24.02)",
-   "no_sampling": false,
-   "openai_chat": false,
-   "openai_responses": false,
-   "output": [
-    "TEXT"
-   ],
-   "prompt_caching": false,
-   "provider": "Mistral AI",
-   "reasoning_field": null,
-   "reasoning_levels": [],
-   "regions": {
-    "us-east-1": [
-     "ON_DEMAND"
-    ]
-   },
-   "released": "2024-05-24T08:00:00Z",
-   "status": "ACTIVE",
-   "streaming": true,
-   "system_role": null,
    "videos": []
   },
   "mistral.mixtral-8x7b-instruct-v0:1": {
@@ -5229,9 +4739,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-west-2": [
@@ -5288,9 +4795,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-3": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -5354,9 +4858,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -5418,9 +4919,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -5473,9 +4971,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -5542,9 +5037,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -5647,9 +5139,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -5750,9 +5239,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -5822,9 +5308,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -5885,9 +5368,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -5946,9 +5426,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -6015,9 +5492,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -6115,9 +5589,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -6218,9 +5689,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -6325,9 +5793,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -6427,9 +5892,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -6534,9 +5996,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -6635,9 +6094,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -6741,9 +6197,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -6845,9 +6298,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -6946,9 +6396,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -7052,9 +6499,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -7153,9 +6597,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -7258,9 +6699,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -7330,9 +6768,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -7399,9 +6834,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -7462,9 +6894,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -7523,9 +6952,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -7654,9 +7080,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -7721,9 +7144,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -7830,9 +7250,6 @@
     ],
     "eu-west-2": [
      "ON_DEMAND"
-    ],
-    "us-east-1": [
-     "ON_DEMAND"
     ]
    },
    "released": "2026-02-06T18:00:00Z",
@@ -7886,9 +7303,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -7955,9 +7369,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -8046,9 +7457,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8095,9 +7503,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8144,9 +7549,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8193,9 +7595,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8242,9 +7641,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8330,9 +7726,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8379,9 +7772,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8428,9 +7818,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8477,9 +7864,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8526,9 +7910,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8575,9 +7956,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8663,9 +8041,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8712,9 +8087,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8756,7 +8128,6 @@
     "EMBEDDING"
    ],
    "profiles": [
-    "us.twelvelabs.marengo-embed-2-7-v1:0",
     "eu.twelvelabs.marengo-embed-2-7-v1:0",
     "apac.twelvelabs.marengo-embed-2-7-v1:0"
    ],
@@ -8769,9 +8140,6 @@
      "INFERENCE_PROFILE"
     ],
     "eu-west-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ]
    },
@@ -8809,7 +8177,6 @@
     "EMBEDDING"
    ],
    "profiles": [
-    "us.twelvelabs.marengo-embed-3-0-v1:0",
     "eu.twelvelabs.marengo-embed-3-0-v1:0"
    ],
    "prompt_caching": false,
@@ -8822,10 +8189,6 @@
     ],
     "eu-west-1": [
      "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
     ]
    },
    "released": "2025-10-28T21:41:50Z",
@@ -8910,10 +8273,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE",
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -8924,7 +8283,7 @@
      "INFERENCE_PROFILE"
     ]
    },
-   "released": "2025-12-16T00:09:00Z",
+   "released": "2025-10-31T00:00:00Z",
    "status": "LEGACY",
    "streaming": true,
    "system_role": null,
@@ -9003,9 +8362,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -9057,9 +8413,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -9105,9 +8458,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -9156,9 +8506,6 @@
    "reasoning_field": null,
    "reasoning_levels": [],
    "regions": {
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -9256,9 +8603,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -9360,9 +8704,6 @@
     "sa-east-1": [
      "INFERENCE_PROFILE"
     ],
-    "us-east-1": [
-     "INFERENCE_PROFILE"
-    ],
     "us-east-2": [
      "INFERENCE_PROFILE"
     ],
@@ -9424,9 +8765,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -9495,9 +8833,6 @@
     "sa-east-1": [
      "ON_DEMAND"
     ],
-    "us-east-1": [
-     "ON_DEMAND"
-    ],
     "us-east-2": [
      "ON_DEMAND"
     ],
@@ -9556,9 +8891,6 @@
      "ON_DEMAND"
     ],
     "sa-east-1": [
-     "ON_DEMAND"
-    ],
-    "us-east-1": [
      "ON_DEMAND"
     ],
     "us-east-2": [
@@ -9651,9 +8983,6 @@
      "INFERENCE_PROFILE"
     ],
     "sa-east-1": [
-     "INFERENCE_PROFILE"
-    ],
-    "us-east-1": [
      "INFERENCE_PROFILE"
     ],
     "us-east-2": [
@@ -10607,7 +9936,6 @@
   },
   "global.amazon.nova-2-lite-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10640,7 +9968,6 @@
     "eu-west-1",
     "eu-west-2",
     "eu-west-3",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10648,7 +9975,6 @@
   },
   "global.anthropic.claude-fable-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10685,7 +10011,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10693,7 +10018,6 @@
   },
   "global.anthropic.claude-fable-5-1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10730,7 +10054,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10738,7 +10061,6 @@
   },
   "global.anthropic.claude-fable-5-2": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10775,7 +10097,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10783,7 +10104,6 @@
   },
   "global.anthropic.claude-haiku-4-5-20251001-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10820,7 +10140,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10828,7 +10147,6 @@
   },
   "global.anthropic.claude-haiku-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10865,7 +10183,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10873,7 +10190,6 @@
   },
   "global.anthropic.claude-opus-4-5-20251101-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10910,7 +10226,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10918,7 +10233,6 @@
   },
   "global.anthropic.claude-opus-4-6-v1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -10955,7 +10269,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -10963,7 +10276,6 @@
   },
   "global.anthropic.claude-opus-4-7": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11000,7 +10312,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11008,7 +10319,6 @@
   },
   "global.anthropic.claude-opus-4-8": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11045,7 +10355,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11053,7 +10362,6 @@
   },
   "global.anthropic.claude-opus-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11090,7 +10398,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11098,7 +10405,6 @@
   },
   "global.anthropic.claude-opus-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11135,7 +10441,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11162,7 +10467,6 @@
   },
   "global.anthropic.claude-sonnet-4-5-20250929-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11199,7 +10503,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11207,7 +10510,6 @@
   },
   "global.anthropic.claude-sonnet-4-6": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11244,7 +10546,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11252,7 +10553,6 @@
   },
   "global.anthropic.claude-sonnet-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11289,7 +10589,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11297,7 +10596,6 @@
   },
   "global.anthropic.claude-sonnet-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11334,7 +10632,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11342,7 +10639,6 @@
   },
   "global.cohere.embed-v4:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11379,7 +10675,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11387,7 +10682,6 @@
   },
   "global.moonshotai.kimi-k3": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11424,7 +10718,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11432,7 +10725,6 @@
   },
   "global.moonshotai.kimi-k3.1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11469,7 +10761,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11477,7 +10768,6 @@
   },
   "global.openai.gpt-5.4": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11514,7 +10804,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11522,7 +10811,6 @@
   },
   "global.openai.gpt-5.5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11559,7 +10847,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11567,7 +10854,6 @@
   },
   "global.openai.gpt-5.6-luna": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11604,7 +10890,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11612,7 +10897,6 @@
   },
   "global.openai.gpt-5.6-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11649,7 +10933,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11657,7 +10940,6 @@
   },
   "global.openai.gpt-5.6-terra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11694,7 +10976,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11702,7 +10983,6 @@
   },
   "global.openai.gpt-6-astra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11739,7 +11019,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11747,7 +11026,6 @@
   },
   "global.openai.gpt-6-luna": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11784,7 +11062,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11792,7 +11069,6 @@
   },
   "global.openai.gpt-6-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11829,7 +11105,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11837,7 +11112,6 @@
   },
   "global.openai.gpt-6.1-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11874,7 +11148,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11882,7 +11155,6 @@
   },
   "global.openai.gpt-6.1-terra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11919,7 +11191,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11927,7 +11198,6 @@
   },
   "global.openai.gpt-6.2-astra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -11964,7 +11234,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -11972,7 +11241,6 @@
   },
   "global.openai.gpt-6.2-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12009,7 +11277,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12017,7 +11284,6 @@
   },
   "global.twelvelabs.pegasus-1-2-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12054,7 +11320,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12062,7 +11327,6 @@
   },
   "global.twelvelabs.pegasus-1-5-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12099,7 +11363,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12107,7 +11370,6 @@
   },
   "global.xai.grok-4.6": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12144,7 +11406,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12152,7 +11413,6 @@
   },
   "global.xai.grok-4.7": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12189,7 +11449,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12197,7 +11456,6 @@
   },
   "global.zai.glm-5.3": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12234,7 +11492,6 @@
     "eu-west-2",
     "eu-west-3",
     "sa-east-1",
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12459,7 +11716,6 @@
   },
   "us.amazon.nova-2-lite-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12480,7 +11736,6 @@
   },
   "us.amazon.nova-lite-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12499,7 +11754,6 @@
   },
   "us.amazon.nova-micro-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12516,7 +11770,6 @@
   },
   "us.amazon.nova-premier-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12533,7 +11786,6 @@
   },
   "us.amazon.nova-pro-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12552,7 +11804,6 @@
   },
   "us.anthropic.claude-3-haiku-20240307-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12569,7 +11820,6 @@
   },
   "us.anthropic.claude-3-sonnet-20240229-v1:0": {
    "from": [
-    "us-east-1",
     "us-west-2"
    ],
    "models": [
@@ -12584,7 +11834,6 @@
   },
   "us.anthropic.claude-fable-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12605,7 +11854,6 @@
   },
   "us.anthropic.claude-fable-5-1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12626,7 +11874,6 @@
   },
   "us.anthropic.claude-fable-5-2": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12647,7 +11894,6 @@
   },
   "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12668,7 +11914,6 @@
   },
   "us.anthropic.claude-haiku-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12689,7 +11934,6 @@
   },
   "us.anthropic.claude-opus-4-1-20250805-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12706,7 +11950,6 @@
   },
   "us.anthropic.claude-opus-4-5-20251101-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12727,7 +11970,6 @@
   },
   "us.anthropic.claude-opus-4-6-v1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12748,7 +11990,6 @@
   },
   "us.anthropic.claude-opus-4-7": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12769,7 +12010,6 @@
   },
   "us.anthropic.claude-opus-4-8": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12790,7 +12030,6 @@
   },
   "us.anthropic.claude-opus-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12811,7 +12050,6 @@
   },
   "us.anthropic.claude-opus-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12832,7 +12070,6 @@
   },
   "us.anthropic.claude-sonnet-4-5-20250929-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12853,7 +12090,6 @@
   },
   "us.anthropic.claude-sonnet-4-6": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12874,7 +12110,6 @@
   },
   "us.anthropic.claude-sonnet-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12895,7 +12130,6 @@
   },
   "us.anthropic.claude-sonnet-5-5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -12916,7 +12150,6 @@
   },
   "us.cohere.embed-v4:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -12935,7 +12168,6 @@
   },
   "us.deepseek.r1-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12967,7 +12199,6 @@
   },
   "us.meta.llama3-1-70b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -12984,7 +12215,6 @@
   },
   "us.meta.llama3-1-8b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13001,7 +12231,6 @@
   },
   "us.meta.llama3-2-11b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13018,7 +12247,6 @@
   },
   "us.meta.llama3-2-1b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13035,7 +12263,6 @@
   },
   "us.meta.llama3-2-3b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13052,7 +12279,6 @@
   },
   "us.meta.llama3-2-90b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13069,7 +12295,6 @@
   },
   "us.meta.llama3-3-70b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13086,7 +12311,6 @@
   },
   "us.meta.llama4-maverick-17b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13105,7 +12329,6 @@
   },
   "us.meta.llama4-scout-17b-instruct-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13124,7 +12347,6 @@
   },
   "us.mistral.pixtral-large-2502-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13141,7 +12363,6 @@
   },
   "us.moonshotai.kimi-k3": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13162,7 +12383,6 @@
   },
   "us.moonshotai.kimi-k3.1": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13183,7 +12403,6 @@
   },
   "us.openai.gpt-5.4": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13202,7 +12421,6 @@
   },
   "us.openai.gpt-5.5": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13221,7 +12439,6 @@
   },
   "us.openai.gpt-5.6-luna": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13242,7 +12459,6 @@
   },
   "us.openai.gpt-5.6-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13263,7 +12479,6 @@
   },
   "us.openai.gpt-5.6-terra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13284,7 +12499,6 @@
   },
   "us.openai.gpt-6-astra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13305,7 +12519,6 @@
   },
   "us.openai.gpt-6-luna": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13326,7 +12539,6 @@
   },
   "us.openai.gpt-6-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13347,7 +12559,6 @@
   },
   "us.openai.gpt-6.1-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13368,7 +12579,6 @@
   },
   "us.openai.gpt-6.1-terra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13389,7 +12599,6 @@
   },
   "us.openai.gpt-6.2-astra": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13410,7 +12619,6 @@
   },
   "us.openai.gpt-6.2-sol": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13431,7 +12639,6 @@
   },
   "us.stability.stable-conservative-upscale-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13448,7 +12655,6 @@
   },
   "us.stability.stable-creative-upscale-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13465,7 +12671,6 @@
   },
   "us.stability.stable-fast-upscale-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13482,7 +12687,6 @@
   },
   "us.stability.stable-image-control-sketch-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13499,7 +12703,6 @@
   },
   "us.stability.stable-image-control-structure-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13516,7 +12719,6 @@
   },
   "us.stability.stable-image-erase-object-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13533,7 +12735,6 @@
   },
   "us.stability.stable-image-inpaint-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13550,7 +12751,6 @@
   },
   "us.stability.stable-image-remove-background-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13567,7 +12767,6 @@
   },
   "us.stability.stable-image-search-recolor-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13584,7 +12783,6 @@
   },
   "us.stability.stable-image-search-replace-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13601,7 +12799,6 @@
   },
   "us.stability.stable-image-style-guide-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13618,7 +12815,6 @@
   },
   "us.stability.stable-outpaint-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13635,7 +12831,6 @@
   },
   "us.stability.stable-style-transfer-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-2"
    ],
@@ -13650,40 +12845,8 @@
     "us-west-2"
    ]
   },
-  "us.twelvelabs.marengo-embed-2-7-v1:0": {
-   "from": [
-    "us-east-1"
-   ],
-   "models": [
-    "twelvelabs.marengo-embed-2-7-v1:0"
-   ],
-   "name": "US TwelveLabs Marengo Embed v2.7",
-   "scope": "us",
-   "to": [
-    "us-east-1",
-    "us-east-2",
-    "us-west-1",
-    "us-west-2"
-   ]
-  },
-  "us.twelvelabs.marengo-embed-3-0-v1:0": {
-   "from": [
-    "us-east-1"
-   ],
-   "models": [
-    "twelvelabs.marengo-embed-3-0-v1:0"
-   ],
-   "name": "US TwelveLabs Marengo Embed 3.0",
-   "scope": "us",
-   "to": [
-    "us-east-1",
-    "us-east-2",
-    "us-west-2"
-   ]
-  },
   "us.twelvelabs.pegasus-1-2-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13691,7 +12854,7 @@
    "models": [
     "twelvelabs.pegasus-1-2-v1:0"
    ],
-   "name": "US Pegasus v1.2",
+   "name": "US TwelveLabs Pegasus v1.2",
    "scope": "us",
    "to": [
     "us-east-1",
@@ -13702,7 +12865,6 @@
   },
   "us.twelvelabs.pegasus-1-5-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13721,7 +12883,6 @@
   },
   "us.writer.palmyra-x4-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13740,7 +12901,6 @@
   },
   "us.writer.palmyra-x5-v1:0": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13759,7 +12919,6 @@
   },
   "us.xai.grok-4.6": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13780,7 +12939,6 @@
   },
   "us.xai.grok-4.7": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2",
@@ -13801,7 +12959,6 @@
   },
   "us.zai.glm-5.3": {
    "from": [
-    "us-east-1",
     "us-east-2",
     "us-west-1",
     "us-west-2"
@@ -13820,7 +12977,6 @@
   }
  },
  "regions": [
-  "us-east-1",
   "us-east-2",
   "us-west-1",
   "us-west-2",
@@ -13851,6 +13007,7 @@
   "eu-south-2": 403,
   "il-central-1": 403,
   "me-central-1": "timed out",
-  "mx-central-1": 403
+  "mx-central-1": 403,
+  "us-east-1": "The read operation timed out"
  }
 }
