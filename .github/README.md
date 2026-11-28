@@ -4,7 +4,7 @@ Which Bedrock model ID or inference profile to call from your region, what each 
 
 Open the explorer at https://kimnamu.github.io/aws-bedrock-model-support/ (for example, [Claude Opus 5.5 called from eu-central-1](https://kimnamu.github.io/aws-bedrock-model-support/#model=anthropic.claude-opus-5-5&region=eu-central-1)).
 
-The data comes from the public `ListFoundationModels` and `ListInferenceProfiles` APIs in 17 regions, plus one small Converse call per active text model each day in us-east-1.
+The data comes from the public `ListFoundationModels` and `ListInferenceProfiles` APIs in 17 regions, plus a small baseline Converse call and one call per parameter for each active text model, every day in us-east-1.
 
 | File | What it holds | Refreshed |
 |---|---|---|
